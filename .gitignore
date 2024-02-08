@@ -53,3 +53,7 @@ local
 
 # vercel
 .vercel
+
+# ide
+
+.idea
