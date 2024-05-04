@@ -21,6 +21,14 @@ export default bundleAnalyzer({
       bufferutil: 'bufferutil',
       'utf-8-validate': 'utf-8-validate',
     });
+    config.module.rules.push({
+      test: /\.txt$/,
+      use: 'raw-loader',
+    });
+    config.module.rules.push({
+      test: /\.xml$/,
+      use: 'raw-loader',
+    });
 
     return config;
   },

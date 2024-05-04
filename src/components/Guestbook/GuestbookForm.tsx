@@ -70,11 +70,7 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
             {...register('username')}
           />
         </label>
-        {errors.username?.message && (
-          <div className="my-2 text-xs italic text-red-500">
-            {errors.username?.message}
-          </div>
-        )}
+        {errors.username?.message && <div className="my-2 text-xs italic text-red-500">{errors.username?.message}</div>}
       </div>
 
       <div className="mt-3">
@@ -86,11 +82,7 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
             {...register('body')}
           />
         </label>
-        {errors.body?.message && (
-          <div className="my-2 text-xs italic text-red-500">
-            {errors.body?.message}
-          </div>
-        )}
+        {errors.body?.message && <div className="my-2 text-xs italic text-red-500">{errors.body?.message}</div>}
       </div>
 
       <div className="mt-5">

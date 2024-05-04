@@ -1,6 +1,16 @@
+import '@radix-ui/themes/styles.css';
 import '@/styles/global.css';
 
+import { Theme } from '@radix-ui/themes';
 import type { Metadata } from 'next';
+import { Inter as FontSans } from 'next/font/google';
+
+import { cn } from '@/libs/utils';
+
+const fontSans = FontSans({
+  subsets: ['latin'],
+  variable: '--font-sans',
+});
 
 export const metadata: Metadata = {
   icons: [
@@ -36,7 +46,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>
+        <Theme>{children}</Theme>
+      </body>
     </html>
   );
 }

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.2">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20231222T205903Z</creationdate>
+    <paragraphs>4</paragraphs>
+    <langs>
+      <lang id="from">
+        <sentences>17</sentences>
+      </lang>
+      <lang id="to">
+        <sentences>14</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="from"/>
+      <s lang="to"/>
+    </author>
+    <title>
+      <s lang="from"/>
+      <s lang="to"/>
+    </title>
+    <contents>
+      <s lang="from">Table of contents</s>
+      <s lang="to">Table of contents</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="from"/>
+        <su lang="to"/>
+      </header>
+      <p type="text" id="0">
+        <sentence id="0">
+          <su lang="from">Modelle bewerten Hinweis: AutoML Translation-Funktionen werden sowohl von der AutoML API als auch von der Cloud Translation – Advanced API angeboten.</su>
+          <su lang="to">Evaluating models Note: AutoML Translation capabilities are offered by both the AutoML API and the Cloud Translation - Advanced API.</su>
+        </sentence>
+        <sentence id="1">
+          <su lang="from">Wir empfehlen, die Cloud Translation – Advanced API zum Erstellen von Datasets und Modellen zu verwenden, da zukünftige Verbesserungen nur für die Cloud Translation – Advanced API gelten werden.</su>
+          <su lang="to">We recommend that you use the Cloud Translation - Advanced API to create datasets and models because future enhancements apply only to the Cloud Translation - Advanced API.</su>
+        </sentence>
+        <sentence id="2">
+          <su lang="from">Weitere Informationen finden Sie unter AutoML-Ressourcen aktualisieren.</su>
+          <su lang="to">For more information, see Upgrade AutoML resources.</su>
+        </sentence>
+      </p>
+      <p type="text" id="1">
+        <sentence id="3">
+          <su lang="from">Nach dem Training eines Modells verwendet AutoML Translation Elemente aus dem Set TEST, um die Qualität und Treffsicherheit des neuen Modells zu bewerten. AutoML Translation ermittelt die Modellqualität.</su>
+          <su lang="to">After training a model, AutoML Translation uses items from the TEST set to evaluate the quality and accuracy of the new model.</su>
+        </sentence>
+        <sentence id="4">
+          <su lang="from">Es nutzt dazu den BLEU-Score (Bilingual Evaluation Understudy) der angibt, wie ähnlich der Kandidatentext den Referenztexten ist, wobei Werte, die näher an 1 liegen, ähnlichere Texte darstellen.</su>
+          <su lang="to">AutoML Translation expresses the model quality using its BLEU (Bilingual Evaluation Understudy) score, which indicates how similar the candidate text is to the reference texts, with values closer to one representing more similar texts.</su>
+        </sentence>
+      </p>
+      <p type="text" id="2">
+        <sentence id="5">
+          <su lang="from">Mithilfe des BLEU-Scores kann auch die Modellqualität insgesamt bewertet werden.</su>
+          <su lang="to">The BLEU score provides an overall assessment of model quality.</su>
+        </sentence>
+        <sentence id="6">
+          <su lang="from">Außerdem können Sie die Modellausgabe im Hinblick auf bestimmte Datenelemente bewerten. Exportieren Sie dazu das Set TEST mit den Modellvorhersagen.</su>
+          <su lang="to">You can also evaluate the model output for specific data items by exporting the TEST set with the model predictions.</su>
+        </sentence>
+        <sentence id="7">
+          <su lang="from">Die exportierten Daten enthalten sowohl den Referenztext (aus dem Original-Dataset) als auch den Kandidatentext des Modells.</su>
+          <su lang="to">The exported data includes both the reference text (from the original dataset) and the model's candidate text.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence id="8">
+          <su lang="from">Mit diesen Daten können Sie nun bewerten, ob Ihr Modell einsatzbereit ist.</su>
+          <su lang="to">Use this data to evaluate your model's readiness.</su>
+        </sentence>
+        <sentence id="9">
+          <su lang="from">Wenn Sie mit der Qualität nicht zufrieden sind, fügen Sie am besten weitere (und stärker unterschiedliche) Paare von Trainingssätzen hinzu.</su>
+          <su lang="to">If you're not happy with the quality level, consider adding more (and more diverse) training sentence pairs.</su>
+        </sentence>
+        <sentence id="10">
+          <su lang="from">Die eine Möglichkeit besteht also darin, weitere Satzpaare hinzuzufügen.</su>
+          <su lang="to">One option is to add more sentence pairs.</su>
+        </sentence>
+        <sentence id="11">
+          <su lang="from">Verwenden Sie dazu den Link Dateien hinzufügen in der Titelleiste.</su>
+          <su lang="to">Use the Add Files link in the title bar.</su>
+        </sentence>
+        <sentence id="12">
+          <su lang="from">Nachdem Sie Dateien hinzugefügt haben, erstellen Sie ein neues Modell. Klicken Sie hierzu auf der Seite Trainieren auf die Schaltfläche Neues Modell trainieren.</su>
+          <su lang="to">Once you've added files, train a new model by clicking the Train New Model button on the Train page.</su>
+        </sentence>
+        <sentence id="13">
+          <su lang="from">Wiederholen Sie diesen Vorgang, bis Sie eine ausreichend hohe Qualität erreicht haben.</su>
+          <su lang="to">Repeat this process until you reach a high enough quality level.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

@@ -1,0 +1,1523 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.2">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20231223T173703Z</creationdate>
+    <paragraphs>131</paragraphs>
+    <langs>
+      <lang id="from">
+        <sentences>340</sentences>
+      </lang>
+      <lang id="to">
+        <sentences>323</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="from"/>
+      <s lang="to"/>
+    </author>
+    <title>
+      <s lang="from"/>
+      <s lang="to"/>
+    </title>
+    <contents>
+      <s lang="from">Table of contents</s>
+      <s lang="to">Table of contents</s>
+    </contents>
+  </head>
+  <body>
+    <section type="h1">
+      <header>
+        <su lang="from">1. Technik</su>
+        <su lang="to">Глава 1 Техник</su>
+      </header>
+      <p type="text" id="0">
+        <sentence id="0">
+          <su lang="from">Andrew Harlan wszedł do kotła.</su>
+          <su lang="to">Техник Эндрю Харлан вошел в капсулу.</su>
+        </sentence>
+        <sentence id="1">
+          <su lang="from">Ściany kotła były doskonale okrągłe i przylegały dokładnie do pionowego szybu, sporządzonego z rzadko rozmieszczonych prętów, które sto osiemdziesiąt centymetrów nad głową Harlana przekształcały się w migotliwą, niewyraźną mgiełkę.</su>
+          <su lang="to"> Капсула находилась внутри колодца, образованного редкими вертикальными прутьями. Прутья плотно облегали круглые стенки капсулы и, уходя вверх, терялись в непроницаемой дымке в шести футах над головой Харлана.</su>
+        </sentence>
+        <sentence id="2">
+          <su lang="from">Włączył zespół sterowania i poruszył lekko chodzący starter.</su>
+          <su lang="to">Харлан повернул рукоятки управления и плавно нажал на пусковой рычаг.</su>
+        </sentence>
+      </p>
+      <p type="text" id="1">
+        <sentence id="3">
+          <su lang="from">Kocioł ani drgnął.</su>
+          <su lang="to">Капсула осталась неподвижной.</su>
+        </sentence>
+      </p>
+      <p type="text" id="2">
+        <sentence id="4">
+          <su lang="from">Harlan bynajmniej nie spodziewał się ruchu ani w górę, ani w dół, w prawo czy w lewo, naprzód czy w tył.</su>
+          <su lang="to">Харлана это не удивило. Капсула не должна была двигаться ни вверх, ни вниз, ни вправо, ни влево, ни вперед, ни назад.</su>
+        </sentence>
+        <sentence id="5">
+          <su lang="from">Jednak odstępy między prętami stopniały w szarawą czerń, która była twarda w dotyku, jakkolwiek niematerialna.</su>
+          <su lang="to">Только промежутки между прутьями словно растаяли, затянувшись серой пеленой, которая была твердой, но все-таки нематериальной.</su>
+        </sentence>
+        <sentence id="6">
+          <su lang="from">Przy tym czuł lekki niepokój w żołądku i nieznaczny (psychosomatyczny?) zawrót głowy, wskazujący, że wszystko, co kocioł zawiera, łącznie z samym Harlanem, pędzi przez Wieczność.</su>
+          <su lang="to">Харлан почувствовал легкую дрожь в желудке и слабое головокружение и по этим признакам понял, что капсула со всем своим содержимым стремительно мчится в будущее сквозь Вечность.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence id="7">
+          <su lang="from">Wszedł do kotła w 575 Stuleciu — bazowym stuleciu operacji, przydzielonym mu dwa lata wcześniej.</su>
+          <su lang="to">Он вошел в капсулу в 575-м Столетии. Этот Сектор Вечности стал его домом два года назад.</su>
+        </sentence>
+        <sentence id="8">
+          <su lang="from">Wiek 575 był najodleglejszy ze wszystkich, do których podróżował.</su>
+          <su lang="to">Никогда до этого ему не приходилось забираться в будущее так далеко.</su>
+        </sentence>
+        <sentence id="9">
+          <su lang="from">A teraz przemieszczał się ku 2456 Stuleciu.</su>
+          <su lang="to">Но сейчас он направляется в 2456-е Столетие.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence id="10">
+          <su lang="from">Normalnie czułby się nieco zagubiony w tej sytuacji.</su>
+          <su lang="to">Месяц назад при одной только мысли об этом Харлану стало бы не по себе.</su>
+        </sentence>
+        <sentence id="11">
+          <su lang="from">Jego ojczyste stulecie leżało w odległej przeszłości — mówiąc dokładnie był to wiek 95.</su>
+          <su lang="to">Его родное 95-е Столетие осталось далеко в прошлом.</su>
+        </sentence>
+        <sentence id="12">
+          <su lang="from">Wiek 95 surowo ograniczający użycie energii atomowej, dość sielankowy, lubujący się w naturalnym drzewie jako materiale konstrukcyjnym, nastawiony na eksport pewnych gatunków destylowanych napojów do wszystkich niemal epok i import nasienia koniczyny.</su>
+          <su lang="to">Это был век патриархальных традиций, в котором атомная энергия находилась под запретом, а всем строительным материалам предпочитали дерево. Век славился своими напитками, которые в обмен на семена клевера вывозились почти во все другие Столетия.</su>
+        </sentence>
+        <sentence id="13">
+          <su lang="from">Jakkolwiek Harlan nie był w 95 wieku od czasu, gdy przeszedł specjalne przeszkolenie i jako piętnastoletni chłopiec został Nowicjuszem, to jednak zawsze czuł się nieco zagubiony, gdy oddalał się od "domu".</su>
+          <su lang="to">Хотя Эндрю Харлан не был дома с тех пор, как он в пятнадцать лет стал Учеником и прошел специальную подготовку, его никогда не оставляла тоска по родным Временам.</su>
+        </sentence>
+        <sentence id="14">
+          <su lang="from">Wiek 2456 będzie okrągłym dwustu czterdziestym tysiącleciem od narodzin Harlana, a jest to szmat czasu, nawet dla zahartowanego Wiecznościowca.</su>
+          <su lang="to">Между 95-м и 2456-м Столетиями пролегло почти двести сорок тысяч лет, а это ощутимый промежуток даже для закаленного Вечного.</su>
+        </sentence>
+        <sentence id="15">
+          <su lang="from">W normalnych okolicznościach wszystko by tak wyglądało.</su>
+          <su lang="to">При обычных обстоятельствах все было бы именно так.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence id="16">
+          <su lang="from">Lecz teraz Harlan był w zbyt kiepskim nastroju, by myśleć o czymkolwiek, poza tym, że dokumenty ciążą mu w kieszeni, a cały plan działania ciężko leży na sercu.</su>
+          <su lang="to">Однако сейчас Харлану было не до абстрактных размышлений.</su>
+        </sentence>
+        <sentence id="17">
+          <su lang="from">Był nieco przestraszony, trochę podniecony i zmieszany.</su>
+          <su lang="to">Рулоны перфолент оттягивали его карманы, планы тяжким грузом лежали на сердце, мысли были скованы страхом и неуверенностью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence id="18">
+          <su lang="from">Jego ręce odruchowo zatrzymały kocioł na właściwym przystanku we właściwym stuleciu.</su>
+          <su lang="to">Он машинально остановил капсулу в нужном Столетии.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence id="19">
+          <su lang="from">Dziwne, że Technik mógł czuć się podniecony czy zdenerwowany czymkolwiek.</su>
+          <su lang="to">Странно, что Техник способен волноваться.</su>
+        </sentence>
+        <sentence id="20">
+          <su lang="from">Co to kiedyś mówił Edukator Yarrow?</su>
+          <su lang="to">Харлан вспомнил сухой голос Наставника Ярроу:</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence id="21">
+          <su lang="from">"Technik musi być przede wszystkim beznamiętny.</su>
+          <su lang="to">– Первая заповедь Техника – ничего не принимать близко к сердцу.</su>
+        </sentence>
+        <sentence id="22">
+          <su lang="from">Zmiana Rzeczywistości, jakiej dokonuje, może wpływać na życie nawet pięćdziesięciu miliardów ludzi.</su>
+          <su lang="to">Совершаемое им Изменение Реальности может отразиться на судьбах пятидесяти миллиардов человек.</su>
+        </sentence>
+        <sentence id="23">
+          <su lang="from">Dla miliona czy więcej spośród nich efekty będą tak drastyczne, że trzeba ich uważać za całkowicie nowe jednostki. W tych warunkach emocjonalne podejście do sprawy stanowi poważną przeszkodę".</su>
+          <su lang="to">Миллион или более могут измениться настолько, что их придется рассматривать как совершенно новые личности.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence id="24">
+          <su lang="from">Harlan gwałtownym potrząśnięciem głowy wyrzucił ze swego umysłu wspomnienie suchego głosu nauczyciela.</su>
+          <su lang="to">Пытаясь отделаться от воспоминаний, Харлан резко тряхнул головой.</su>
+        </sentence>
+        <sentence id="25">
+          <su lang="from">W tamtych czasach nawet sobie nie wyobrażał, że zostanie właśnie Technikiem.</su>
+          <su lang="to">Кто бы мог подумать тогда, что именно он, Харлан, станет Техником и к тому же одним из самых талантливых.</su>
+        </sentence>
+        <sentence id="26">
+          <su lang="from">Ale emocje zaczął przeżywać mimo wszystko.</su>
+          <su lang="to">И все-таки он волновался.</su>
+        </sentence>
+        <sentence id="27">
+          <su lang="from">Nie z racji pięćdziesięciu miliardów ludzi.</su>
+          <su lang="to">Но не за судьбу пятидесяти миллиардов человек.</su>
+        </sentence>
+        <sentence id="28">
+          <su lang="from">Kto w Czasie troszczy się o pięćdziesiąt miliardów ludzi?</su>
+          <su lang="to">Что ему пятьдесят миллиардов обитателей Времени?</su>
+        </sentence>
+        <sentence id="29">
+          <su lang="from">Chodzi tylko o jednego.</su>
+          <su lang="to">Только один человек существовал для него во всех Столетиях.</su>
+        </sentence>
+        <sentence id="30">
+          <su lang="from">O jedną osobę.</su>
+          <su lang="to">Один-единственный.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence id="31">
+          <su lang="from">Uświadomił sobie, że kocioł stoi, w króciutkiej przerwie, dla zebrania myśli, wprawił się w ten chłodny, rzeczowy nastrój, jaki musi cechować Technika.</su>
+          <su lang="to">Харлан заметил, что капсула остановилась, однако, прежде чем выйти наружу, он задержался на какую-то долю секунды, чтобы собраться с мыслями и вновь обрести бесстрастное, невозмутимое расположение духа.</su>
+        </sentence>
+        <sentence id="32">
+          <su lang="from">Potem wysiadł.</su>
+          <su lang="to">Капсула, которую он покинул, разумеется, не была той же самой, в которую он вошел: она уже не состояла из тех же атомов.</su>
+        </sentence>
+        <sentence id="33">
+          <su lang="from">Kocioł, który opuścił, nie był oczywiście tym samym, do którego wsiadł — w tym sensie, że nie składał się z tych samych atomów.</su>
+          <su lang="to">Харлан воспринимал это обстоятельство как нечто само собою разумеющееся.</su>
+        </sentence>
+        <sentence id="34">
+          <su lang="from">Nie troszczył się o to bardziej niż inni Wiecznościowcy.</su>
+          <su lang="to">Только Ученики ломают себе голову над загадками путешествий во Времени.</su>
+        </sentence>
+        <sentence id="35">
+          <su lang="from">Tylko Nowicjusze i nowi przybysze do Wieczności interesowali się bardziej mistyką podróży w Czasie niż samym jej faktem.</su>
+          <su lang="to">Вечные заняты более важными делами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence id="36">
+          <su lang="from">Znowu zrobił krótką przerwę przy nieskończenie cienkiej kurtynie z Nie-Przestrzeni i Nie-Czasu, która z jednej strony oddzielała go od Wieczności, a z drugiej — od zwykłego Czasu.Znalazł się w całkiem dla siebie nowej sekcji Wieczności.</su>
+          <su lang="to">Харлан снова ненадолго задержался у бесконечно тонкой завесы Темпорального поля, которое не было ни Временем, ни Пространством, но которое сейчас отделяло его как от Вечности, так и от обычного Времени. По ту сторону завесы лежал совершенно неизвестный ему Сектор Вечности.</su>
+        </sentence>
+        <sentence id="37">
+          <su lang="from">Oczywiście cokolwiek z grubsza o niej wiedział, przejrzawszy odpowiedni rozdział Podręcznika Czasu.</su>
+          <su lang="to">Он, конечно, заглянул перед отъездом в Справочник Времен и кое-что о нем узнал.</su>
+        </sentence>
+        <sentence id="38">
+          <su lang="from">Jednak nie mogło to zastąpić osobistych odwiedzin, więc przygotował się na początkowy szok adaptacji.</su>
+          <su lang="to">Но Справочник – это одно, а личное впечатление – совсем другое. Харлан внутренне приготовился к любым неожиданностям.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence id="39">
+          <su lang="from">Odpowiednio nastawił zespół sterowania (prosta sprawa przy wkraczaniu do Wieczności, natomiast bardzo skomplikowana w przej ściu do Czasu, lecz ten typ podróży zdarzał się rzadziej).</su>
+          <su lang="to">Он настроил управление на выход в Вечность (это было совсем просто, куда проще, чем выйти во Время) и шагнул вперед.</su>
+        </sentence>
+        <sentence id="40">
+          <su lang="from">Przekroczył kurtynę i przymrużył oczy od blasku. Odruchowo podniósł rękę, by je osłonić.</su>
+          <su lang="to">Оказавшись по ту сторону завесы Темпорального поля, он зажмурил глаза от ослепительно яркого блеска и инстинктивно прикрыл их руками.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence id="41">
+          <su lang="from">Naprzeciw niego stał tylko jeden człowiek.</su>
+          <su lang="to">Перед ним стоял только один человек.</su>
+        </sentence>
+        <sentence id="42">
+          <su lang="from">Z początku Harlan widział go bardzo niewyraźnie.</su>
+          <su lang="to">Вначале Харлан едва различал черты его лица.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence id="43">
+          <su lang="from">Człowiek odezwał się: — Jestem Socjolog.</su>
+          <su lang="to">– Я Социолог Кантор Вой, – сказал человек.</su>
+        </sentence>
+        <sentence id="44">
+          <su lang="from">Kantor Voy. Pan jest pewnie Technikiem Marianem?</su>
+          <su lang="to">– Полагаю, что вы и есть Техник Харлан?</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence id="45">
+          <su lang="from">Harlan skinął głową i powiedział:</su>
+          <su lang="to">Харлан кивнул.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence id="46">
+          <su lang="from">— Ojcze Czasie!</su>
+          <su lang="to">– Разрази меня Время! – воскликнул он.</su>
+        </sentence>
+        <sentence id="47">
+          <su lang="from">Czy tę iluminację można trochę przygasić?</su>
+          <su lang="to">– Неужели вы никогда не выключаете эту иллюминацию?</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence id="48">
+          <su lang="from">Voy obejrzał się, a potem powiedział wyrozumiale: — Myśli pan o emulsjach cząsteczkowych?</su>
+          <su lang="to">– Вы имеете в виду молекулярные пленки? – снисходительно спросил Вой, оглядевшись.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence id="49">
+          <su lang="from">— Oczywiście — odparł Harlan.</su>
+          <su lang="to">– Вот именно! – раздраженно буркнул Харлан.</su>
+        </sentence>
+        <sentence id="50">
+          <su lang="from">— Podręcznik wspominał o nich, ale nie mówił o tak szaleńczych refleksach świetlnych.</su>
+          <su lang="to">Справочник упоминал о них, но Харлан никогда не подозревал, что блеск световых отражений может быть таким неистовым.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence id="51">
+          <su lang="from">Harlan uważał swe oburzenie za dość uzasadnione.</su>
+          <su lang="to">Харлан понимал причину своего раздражения.</su>
+        </sentence>
+        <sentence id="52">
+          <su lang="from">2456 Stulecie orientowało się na materię, podobnie jak większość stuleci, więc od samego początku miał prawo oczekiwać, że wszystko będzie dość podobne.</su>
+          <su lang="to">Если не считать нескольких энергетических Столетий, цивилизация во все Времена основывалась на использовании вещества.</su>
+        </sentence>
+        <sentence id="53">
+          <su lang="from">Nie spodziewał się tu straszliwego chaosu (straszliwego dla kogoś, kto urodził się w epoce zorientowanej na materię) wirów energii trzechsetnych stuleci ani dynamiki pola sześćsetnych wieków.</su>
+          <su lang="to">В 2456-м Столетии из вещества изготовлялось все, начиная со стен и кончая гвоздями.</su>
+        </sentence>
+        <sentence id="54">
+          <su lang="from">W wieku 2456 dla wygody przeciętnego Wiecznościowca materii używano do wszystkiego — od ścian do gwoździ tapicerskich.</su>
+          <su lang="to">Поэтому Харлан с самого начала рассчитывал хотя бы на принципиальное сходство со знакомым ему миром.</su>
+        </sentence>
+        <sentence id="55">
+          <su lang="from">Nawiasem mówiąc, jest materia i materia.</su>
+          <su lang="to">Здесь можно было не опасаться встретить ни совершенно непонятные (для человека, родившегося в вещественном веке) энергетические вихри, заменяющие вещество в 300-м, ни силовые поля 600-го.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence id="56">
+          <su lang="from">Obywatel zorientowanego na energię stulecia może sobie tego nie uświadamiać.</su>
+          <su lang="to">Конечно, вещество веществу рознь, хотя человек из энергетического Столетия мог бы не согласиться с этим утверждением.</su>
+        </sentence>
+        <sentence id="57">
+          <su lang="from">Dla niego wszelka materia może wyglądać jak drobne odmiany czegoś grubego, ciężkiego, barbarzyńskiego.</su>
+          <su lang="to">Для него всякое вещество было чем-то грубым, громоздким и варварским.</su>
+        </sentence>
+        <sentence id="58">
+          <su lang="from">Jednak nastawiony na materię Harlan rozróżniał drzewo, metale (ciężkie i lekkie), plastik, krzem, wapno, skórę i tak dalej.</su>
+          <su lang="to">Но Харлан родился в вещественном веке и воспринимал вещество как дерево, металл (легкий или тяжелый), бетон, пластмассу, кожу и т. п.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence id="59">
+          <su lang="from">Lecz materia składająca się wyłącznie z luster!</su>
+          <su lang="to">Но попасть в мир, состоящий из одних зеркал!</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence id="60">
+          <su lang="from">To było pierwsze wrażenie z 2456 Stulecia.</su>
+          <su lang="to">Именно таким было его первое впечатление от 2456-го.</su>
+        </sentence>
+        <sentence id="61">
+          <su lang="from">Każda powierzchnia odbijała światło i błyszczała.</su>
+          <su lang="to">Каждая поверхность сверкала, отражая свет.</su>
+        </sentence>
+        <sentence id="62">
+          <su lang="from">Wszędzie była iluzja absolutnej gładkości: efekt emulsji cząsteczkowej.</su>
+          <su lang="to">Эффект молекулярных пленок создавал везде впечатление зеркальной глади.</su>
+        </sentence>
+        <sentence id="63">
+          <su lang="from">W tych nie kończących się odbiciach samego Harlana i Socjologa Voya, wszystkiego, co tylko mógł zobaczyć w ułamkach i całościach, pod wszystkimi kątami, był chaos.</su>
+          <su lang="to">Куда ни глянь, всюду были видны отражения Социолога Воя, его самого и всего, что находилось вокруг.</su>
+        </sentence>
+        <sentence id="64">
+          <su lang="from">Jaskrawy chaos, wywołujący obrzydzenie.</su>
+          <su lang="to">От яркого блеска и путаницы красок просто мутило.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence id="65">
+          <su lang="from">— Bardzo mi przykro — powiedział Voy. — To obyczaj Stulecia, a odpowiednia sekcja uważa, że należy przyjmować miejscowe obyczaje, jeśli są praktyczne.</su>
+          <su lang="to">– Сожалею, – сказал Вой, – но таков уж обычай Столетия, а мы в нашем Секторе стараемся по возможности перенимать все, что практично.</su>
+        </sentence>
+        <sentence id="66">
+          <su lang="from">Przyzwyczai się pan do tego po pewnym czasie.</su>
+          <su lang="to">Потерпите немного, и вы привыкнете.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence id="67">
+          <su lang="from">Voy ruszył gwałtownie po stopach innego Voya, odwróconego głową w dół pod posadzką, który wraz z nim podszedł do stołu. Przesunął do punktu zerowego cienką jak włos wskazówkę na spiralnej skali.</su>
+          <su lang="to">Вой быстро подошел к стене, наступая на пятки своему отражению, которое шагало вниз головой, в точности повторяя каждое движение Социолога, и передвинул волосок индикатора по спиральной шкале к нулю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence id="68">
+          <su lang="from">Odbicia znikły, jaskrawe światło zbladło.</su>
+          <su lang="to">Отражения исчезли, яркие огни потускнели.</su>
+        </sentence>
+        <sentence id="69">
+          <su lang="from">Harlan poczuł, jakjego świat się zestala.</su>
+          <su lang="to">Харлан почувствовал себя в более привычной обстановке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence id="70">
+          <su lang="from">— Proszą teraz za mną — rzekł Voy.</su>
+          <su lang="to">– Не пройдете ли вы теперь со мной? – пригласил Социолог.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence id="71">
+          <su lang="from">Harlan poszedł za nim przez puste korytarze, które przed paroma chwilami musiały jarzyć się orgią sztucznego światła i refleksów, po pochylni i przez przedpokój do gabinetu.</su>
+          <su lang="to">Харлан последовал за ним сквозь пустые коридоры, в которых всего несколько мгновений назад царил хаос радужных огней и бесчисленных отражений. Они поднялись по пандусу вверх и прошли через переднюю в кабинет Воя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence id="72">
+          <su lang="from">Na tej krótkiej drodze nie spotkali nikogo.</su>
+          <su lang="to">На всем пути им не встретилось ни одной живой души.</su>
+        </sentence>
+        <sentence id="73">
+          <su lang="from">Harlan tak był do tego przyzwyczajony, że z pewnością zaskoczyłoby go i niemal wywołało wstrząs, gdyby ujrzał oddalającą się szybko postać ludzką.</su>
+          <su lang="to">Можно было не сомневаться, что весть о прибытии Техника уже разнеслась по всему Сектору. Харлан настолько привык к тому особому положению, которое занимали в Вечности люди его профессии, что воспринимал безлюдные коридоры как должное.</su>
+        </sentence>
+        <sentence id="74">
+          <su lang="from">Bez wątpienia rozeszły się już wieści, że przybywa Technik.</su>
+          <su lang="to">Он удивился бы, заметив спешащую скрыться человеческую фигуру.</su>
+        </sentence>
+        <sentence id="75">
+          <su lang="from">Nawet Voy trzymał się na dystans, a gdy przypadkowo dłoń Harlana otarła się o jego rękaw, Socjolog drgnął i cofnął się.</su>
+          <su lang="to">Даже Вой пытался держаться на известном расстоянии и поспешно отшатнулся, когда Харлан случайно задел ладонью его рукав.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence id="76">
+          <su lang="from">Harlana nieco zaskoczyła odrobina goryczy, jakiej przy tym wszystkim doznawał.</su>
+          <su lang="to">Чувство горечи, испытанное при этом Харланом, неприятно удивило его.</su>
+        </sentence>
+        <sentence id="77">
+          <su lang="from">Myślał, że muszla, która wyrosła wokół jego duszy, jest grubsza, bardziej nieprzenikliwa.</su>
+          <su lang="to">Он полагал, что его душа, как улитка в раковине, давно уже неуязвима для подобных уколов.</su>
+        </sentence>
+        <sentence id="78">
+          <su lang="from">Jeśli się mylił, jeśli ten pancerz stał się cieńszy, przyczyna mogła być tylko jedna: Noys!</su>
+          <su lang="to">Но если стенки его раковины стали тоньше, то этому могла быть только одна причина: Нойс.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence id="79">
+          <su lang="from">Socjolog Kantor Voy pochylił się ku Technikowi niby w dość przyjacielski sposób, lecz Harlan zauważył, że siedzą po przeciwnych końcach podłużnej osi dość dużego stołu.</su>
+          <su lang="to">Со стороны могло показаться, что Социолог дружелюбно наклонился к Технику, но Харлан машинально отметил, что их разделяет довольно длинный стол.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence id="80">
+          <su lang="from">Voy powiedział: — Cieszę się, że tak słynny Technik interesuje się naszym drobnym problemem.</su>
+          <su lang="to">– Я польщен, – начал Вой, – что такой знаменитый Техник, как вы, заинтересовался нашей маленькой проблемой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence id="81">
+          <su lang="from">— Tak — odparł Harlan z chłodną obojętnością, jakiej ludzie po nim oczekiwali.</su>
+          <su lang="to">– Да, она представляет определенный теоретический интерес.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence id="82">
+          <su lang="from">— Ten problem ma swoje interesujące aspekty.</su>
+          <su lang="to">Харлан ответил сухо и бесстрастно, как и следовало говорить Технику.</su>
+        </sentence>
+        <sentence id="83">
+          <su lang="from">(Czy był dość obojętny?</su>
+          <su lang="to">(Но был ли его голос действительно бесстрастен?</su>
+        </sentence>
+        <sentence id="84">
+          <su lang="from">Z pewnościąjego prawdziwe motywy muszą być widoczne, a wina ujawnia się w kropelkach potu na czole).</su>
+          <su lang="to">Не проглядывают ли наружу его истинные побуждения? Не бросается ли в глаза его вина, написанная на лбу холодными каплями пота?)</su>
+        </sentence>
+        <sentence id="85">
+          <su lang="from">Wydobył z wewnętrznej kieszeni arkusik folii z sumarycznym projektem Zmiany Rzeczywistości.</su>
+          <su lang="to">Харлан вытащил из внутреннего кармана небольшой рулончик перфолент с кратким закодированным описанием планируемого Изменения Реальности.</su>
+        </sentence>
+        <sentence id="86">
+          <su lang="from">Była to ta sama kopia, którą miesiąc wcześniej wysłano do Rady Wszechczasów.</su>
+          <su lang="to">(Это был тот самый экземпляр, который Вой месяц назад послал на рассмотрение Совета Времен.</su>
+        </sentence>
+        <sentence id="87">
+          <su lang="from">Dzięki swym kontaktom ze Starszym Kalkulatorem Twissellem (samym Twissellem!)</su>
+          <su lang="to">Благодаря своей близости к Старшему Вычислителю Твисселу – к великому Твисселу!</su>
+        </sentence>
+        <sentence id="88">
+          <su lang="from">Harlan nie miał wiele kłopotu z uzyskaniem tego egzemplarza.</su>
+          <su lang="to">– Харлану удалось заполучить проект без большого труда.)</su>
+        </sentence>
+        <sentence id="89">
+          <su lang="from">Przed rozwinięciem rolki upuścił ją na powierzchnię stołu, gdzie została zatrzymana przez słabe pole paramagnetyczne, i zamyślił się na chwilę.</su>
+          <su lang="to">Но перед тем как расстелить ленту на поверхности стола, где ее будет удерживать слабое парамагнитное поле, Харлан на мгновенье замешкался.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence id="90">
+          <su lang="from">Pokrywająca stół emulsja cząsteczkowa była przygaszona, ale nie ciemna.</su>
+          <su lang="to">Молекулярная пленка, покрывающая стол, была «притушена», но полностью не исчезла.</su>
+        </sentence>
+        <sentence id="91">
+          <su lang="from">Ruch własnej ręki przyciągnął na chwilę jego wzrok, odbicie twarzy zdawało się patrzeć na niego ponuro z blatu stołu.</su>
+          <su lang="to">Протянув руку, Харлан невольно взглянул на крышку стола, откуда на него мрачно глядело собственное лицо.</su>
+        </sentence>
+        <sentence id="92">
+          <su lang="from">Miał trzydzieści dwa lata, lecz wyglądał starzej. Wiedział o tym.</su>
+          <su lang="to">Ему было тридцать два года, но он выглядел старше и сам это хорошо понимал.</su>
+        </sentence>
+        <sentence id="93">
+          <su lang="from">Może to właśnie jego długa twarz i czarne brwi nad czarnymi oczyma powodowały po części, że miał ów marsowy wygląd i chłodne nieruchome spojrzenie, typowe dla karykaturalnego obrazu Technika w wyobrażeniach Wiecznościowców.</su>
+          <su lang="to">Возможно, его старило узкое лицо, которому темные брови над черными глазами придавали суровый, насупленный вид (типичный, по мнению Вечных, для Техника).</su>
+        </sentence>
+        <sentence id="94">
+          <su lang="from">A może powodował to fakt, że Harlan stale pamiętał o tym, iż jest Technikiem.</su>
+          <su lang="to">А возможно, причина была в том, что сам Харлан ни на минуту не забывал о своей профессии.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence id="95">
+          <su lang="from">Rozpostarł folię na stole i wrócił do sprawy.</su>
+          <su lang="to">Развернув рулон, Харлан решительно приступил к делу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence id="96">
+          <su lang="from">— Nie jestem Socjologiem — rzekł.</su>
+          <su lang="to">– Я не Социолог, сэр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence id="97">
+          <su lang="from">Voy uśmiechnął się. — To brzmi wspaniale. Gdy ktoś zaczyna mówić o braku kompetencji w danej dziedzinie, zazwyczaj zaraz potem występuje z jakąś stanowczą opinią.</su>
+          <su lang="to">– Устрашающее начало, – усмехнулся Вой, – такое вступление обычно предвещает, что за ним вот-вот последует самое банальное суждение по данному вопросу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence id="98">
+          <su lang="from">— Nie — powiedział Harlan. — To nie opinia. Tylko prośba.</su>
+          <su lang="to">– О нет, не суждение – скорее просьба.</su>
+        </sentence>
+        <sentence id="99">
+          <su lang="from">Chciałbym, żeby pan rzucił okiem na to podsumowanie i sprawdził, czy gdzieś tu nie ma drobnej pomyłki.</su>
+          <su lang="to">Будьте так добры: просмотрите еще раз ваше заключение и поищите, нет ли в нем небольшой ошибки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence id="100">
+          <su lang="from">Voy natychmiast spoważniał.</su>
+          <su lang="to">Лицо Воя сразу же помрачнело.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence id="101">
+          <su lang="from">— Mam nadzieję, że nie — powiedział.</su>
+          <su lang="to">– Надеюсь, что нет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence id="102">
+          <su lang="from">Harlan trzymał jedną rękę na oparciu fotela, drugą na kolanach.</su>
+          <su lang="to">Одна рука Харлана лежала на спинке стула, другая – на коленях.</su>
+        </sentence>
+        <sentence id="103">
+          <su lang="from">Musiał uważać, żeby nie bębnić palcami. Ani nie zagryzać ust.</su>
+          <su lang="to">Он не мог позволить себе забарабанить по столу беспокойными пальцами, он не мог закусить губу.</su>
+        </sentence>
+        <sentence id="104">
+          <su lang="from">Nie mógł w żadnym wypadku wyjawiać swych uczuć.</su>
+          <su lang="to">Малейшее проявление чувств – и все погибло.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence id="105">
+          <su lang="from">Od czasu gdy cała orientacja jego życia się zmieniła, studiował konspekty projektowanych Zmian Rzeczywistości, które napływały poprzez pracujący na wysokich obrotach młyn administracyjny do Rady Wszechczasów.</su>
+          <su lang="to">Целый месяц Харлан регулярно просматривал все новые проекты Изменений Реальности по мере того, как они перемалывались административными жерновами Совета Времен.</su>
+        </sentence>
+        <sentence id="106">
+          <su lang="from">Jako przyboczny Technik Starszego Kalkulatora Twissella potrafił to zorganizować, lekko tylko naginając zasady zawodowej etyki.</su>
+          <su lang="to">Для личного Техника Старшего Вычислителя Твиссела это не представляло особых трудностей, если только не считаться с небольшим нарушением профессиональной этики.</su>
+        </sentence>
+        <sentence id="107">
+          <su lang="from">Szczególnie że Twissell coraz więcej uwagi poświęcał swemu gigantycznemu przedsięwzięciu.</su>
+          <su lang="to">В последние дни, когда все внимание Твиссела полностью поглотил его собственный проект, рыться в его бумагах стало совсем безопасно.</su>
+        </sentence>
+        <sentence id="108">
+          <su lang="from">(Harlan gorączkował się.</su>
+          <su lang="to">(У Харлана слегка раздулись ноздри.</su>
+        </sentence>
+        <sentence id="109">
+          <su lang="from">Teraz wiedział coś niecoś o naturze tego przedsięwzięcia).</su>
+          <su lang="to">Теперь-то он кое-что знал об этом проекте.)</su>
+        </sentence>
+        <sentence id="110">
+          <su lang="from">Nie miał pewności, że we właściwym czasie znajdzie to, czego szukał.</su>
+          <su lang="to">Но в распоряжении Харлана оставалось так мало времени, что его могла спасти только невероятная удача.</su>
+        </sentence>
+        <sentence id="111">
+          <su lang="from">Gdy pierwszy raz rzucił okiem na projekt Zmiany Rzeczywistości 2456-2781, numer seryjny V-5, był prawie przekonany, że pragnienia zmąciły mu umysł.</su>
+          <su lang="to">Поэтому, наткнувшись на проект Изменения Реальности с 2456-го по 2871-е Столетие, серийный номер В-5, он в первый момент подумал, что напряжение помутило его рассудок и он принимает желаемое за действительное.</su>
+        </sentence>
+        <sentence id="112">
+          <su lang="from">Przez cały dzień sprawdzał równania i związki w przygniatającej niepewności, zmieszanej ze wzrastającym podnieceniem i gorzką satysfakcją, że nauczył się przynajmniej podstaw psychomatematyki.</su>
+          <su lang="to">Не доверяя самому себе, он весь день проверял уравнения и зависимости, и чем дальше, тем сильнее становилось его возбуждение.</su>
+        </sentence>
+        <sentence id="113">
+          <su lang="from">Teraz Voy przeglądał te same perforowane wzory na pół zdumionym, na pół gniewnym wzrokiem.</su>
+          <su lang="to">С чувством благодарности, к которой примешивалась слабая горечь, он вспоминал своих Наставников, обучивших его хотя бы элементарной психоматематике.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence id="114">
+          <su lang="from">Powiedział:</su>
+          <su lang="to">Сейчас Вой недоуменными и озабоченными глазами просматривал ту же самую перфоленту.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence id="115">
+          <su lang="from">— Wydaje mi się, powiadam: wydaje mi się, że wszystko jest w najlepszym porządku. Harlan powiedział:</su>
+          <su lang="to">– Может быть, я и ошибаюсь, – произнес он наконец, – но мне лично кажется, что все в полном порядке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence id="116">
+          <su lang="from">— Polecam panu szczególnie sprawę charakterystyki okresu narzeczeństwa w bieżącej Rzeczywistości tegoż stulecia.</su>
+          <su lang="to">– Тогда я позволю себе обратить ваше внимание на психоматрицы любовных отношений, характерные для Реальности вашего Столетия.</su>
+        </sentence>
+        <sentence id="117">
+          <su lang="from">To należy do socjologii i za to chyba pan odpowiada. Dlatego też chciałem się spotkać raczej z panem niż z kimkolwiek innym.</su>
+          <su lang="to">Это область Социологии – вот почему я решил в первую очередь встретиться именно с вами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence id="118">
+          <su lang="from">Voy zmarszczył czoło.</su>
+          <su lang="to">Вой нахмурился.</su>
+        </sentence>
+        <sentence id="119">
+          <su lang="from">Nadal był grzeczny, lecz chłodny. Powiedział:</su>
+          <su lang="to">Он все еще был вежлив, но в его голосе явственно послышался холодок.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence id="120">
+          <su lang="from">— Obserwatorzy przydzieleni do naszej sekcji są wysoce kompetentni.</su>
+          <su lang="to">– Наблюдатели нашего Сектора очень опытны.</su>
+        </sentence>
+        <sentence id="121">
+          <su lang="from">Mam absolutną pewność, że ci, których wyznaczono do tego projektu, dostarczyli dokładnych danych.</su>
+          <su lang="to">Я совершенно уверен в правильности их донесений.</su>
+        </sentence>
+        <sentence id="122">
+          <su lang="from">Ma pan powody sądzić, że było inaczej?</su>
+          <su lang="to">Может быть, вы располагаете другими сведениями.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence id="123">
+          <su lang="from">— Bynajmniej, Socjologu.</su>
+          <su lang="to">– Отнюдь нет, Социолог Вой.</su>
+        </sentence>
+        <sentence id="124">
+          <su lang="from">Przyjmuję ich materiały. Kwestionuję natomiast opracowanie materiałów.</su>
+          <su lang="to">Я основываюсь на ваших же данных и ставлю под сомнение только выводы.</su>
+        </sentence>
+        <sentence id="125">
+          <su lang="from">Czy nie można znaleźć alternatywnego rozgałęzienia w tym punkcie, jeśli weźmie się właściwie pod rozwagę dane o narzeczonych?</su>
+          <su lang="to">Взгляните вот сюда: не будет ли комплекс-тензор в этой точке переменным, если подставить точные значения психоматриц?</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence id="126">
+          <su lang="from">Voy spojrzał, a potem odetchnął z ulgą.</su>
+          <su lang="to">Вой с явным облегчением взглянул на перфоленту.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence id="127">
+          <su lang="from">— Oczywiście, Techniku, oczywiście, lecz to rozgałęzienie przekształca się w tożsamość.</su>
+          <su lang="to">– Разумеется, Техник, разумеется, но вы не заметили, что уравнение в этой точке вырождается в тождество.</su>
+        </sentence>
+        <sentence id="128">
+          <su lang="from">To pętla małych rozmiarów bez żadnych świadczeń z którejkolwiek strony.</su>
+          <su lang="to">В итоге получается небольшая вилка без побочных ответвлений, а дальше дороги снова сливаются.</su>
+        </sentence>
+        <sentence id="129">
+          <su lang="from">Sądzę, że wybaczy mi pan ten malowniczy język zamiast precyzyjnych wyrażeń matematycznych.</su>
+          <su lang="to">Надеюсь, вы мне простите употребление этих цветистых сравнений вместо точного математического языка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence id="130">
+          <su lang="from">— Lubię go — powiedział Harlan sucho. — Nie jestem bardziej Kalkulatorem niż Socjologiem.</su>
+          <su lang="to">– Ценю вашу любезность, – сухо сказал Харлан, – из меня такой же Вычислитель, как и Социолог.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence id="131">
+          <su lang="from">— Doskonale.</su>
+          <su lang="to">– Ну что ж, отлично.</su>
+        </sentence>
+        <sentence id="132">
+          <su lang="from">Alternatywne rozgałęzienie, o którym pan mówi, albo rozwidlenie drogi, jak byśmy powiedzieli, jest nieznaczne.</su>
+          <su lang="to">Переменный комплекс-тензор, о котором вы говорили (или же попросту вилка), не играет никакой роли.</su>
+        </sentence>
+        <sentence id="133">
+          <su lang="from">Oba ramiona się łączą i powstaje znowu jedna droga.</su>
+          <su lang="to">Пути смыкаются, и решение вновь становится единственным.</su>
+        </sentence>
+        <sentence id="134">
+          <su lang="from">Nie ma nawet potrzeby o tym wspominać w naszych zaleceniach.</su>
+          <su lang="to">Это такой пустяк, что не стоило даже упоминать о нем в наших рекомендациях.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence id="135">
+          <su lang="from">— Skoro pan tak twierdzi, to przyjmuję, że pan ma rację.</su>
+          <su lang="to">– Раз вы так считаете, сэр, то мне остается только согласиться с вами.</su>
+        </sentence>
+        <sentence id="136">
+          <su lang="from">Jednak nadal pozostaje kwestia MPZ.</su>
+          <su lang="to">Теперь перейдем к выбору МНВ.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence id="137">
+          <su lang="from">Socjolog jęknął przy tych inicjałach, ale Harlan spodziewał się tego.</su>
+          <su lang="to">Харлан заранее знал, что при этих словах Социолог поморщится.</su>
+        </sentence>
+        <sentence id="138">
+          <su lang="from">MPZ — Minimum Potrzebnych Zmian. Tutaj Technik był mistrzem.</su>
+          <su lang="to">МНВ означало Минимальное необходимое воздействие, и в этом вопросе решающее слово всегда оставалось за Техником.</su>
+        </sentence>
+        <sentence id="139">
+          <su lang="from">Socjolog mógł się uważać za niedostępnego dla krytyki niższych istot we wszystkim, co dotyczyło matematycznej analizy nieskończenie możliwych Rzeczywistości w Czasie, ale w sprawach MPZ Technik stał wyżej.</su>
+          <su lang="to">Пока Социолог занимался математическим анализом бесчисленных возможных Реальностей, он мог считать себя выше критики со стороны существ низшего порядка, но как только дело доходило до выбора МНВ, хозяином положения становился Техник.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence id="140">
+          <su lang="from">Mechaniczne komputowanie nie wystarczy.</su>
+          <su lang="to">Решить эту проблему при помощи одних только математических вычислений было невозможно.</su>
+        </sentence>
+        <sentence id="141">
+          <su lang="from">Największy komputaplex, jaki kiedykolwiek zbudowano, obsługiwany przez najmądrzejszego i najbardziej doświadczonego Starszego Kalkulatora, potrafi najwyżej wskazać granice, w których można ustalić MPZ.</su>
+          <su lang="to">Даже самый большой и быстродействующий Кибермозг, управляемый самым умным и опытным Старшим Вычислителем, в лучшем случае мог только указать область вероятных поисков МНВ.</su>
+        </sentence>
+        <sentence id="142">
+          <su lang="from">Dopiero Technik, przeglądając dane, wybierał określony punkt w tym zakresie.</su>
+          <su lang="to">Правильный выбор всецело зависел от интуиции и опыта Техника.</su>
+        </sentence>
+        <sentence id="143">
+          <su lang="from">Dobry Technik rzadko się mylił, Technik wybitny nie mylił się nigdy.</su>
+          <su lang="to">Хороший Техник ошибался крайне редко. Первоклассный Техник не ошибался никогда.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence id="144">
+          <su lang="from">Harlan nie mylił się nigdy.</su>
+          <su lang="to">Харлан никогда не ошибался.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence id="145">
+          <su lang="from">— Tymczasem zalecane przez waszą sekcję MPZ — odezwał się Harlan — (mówił chłodno, obojętnie, precyzyjnie wymawiając zgłoski standardowego języka międzyczasowego) — łączy się ze spowodowaniem wypadku w przestrzeni kosmicznej i gwałtowną, okrutną śmiercią dziesięciu czy więcej ludzi.</su>
+          <su lang="to">– МНВ, рекомендованное вашим Сектором, – продолжал Харлан ровным, бесстрастным голосом, словно чеканя звуки Единого межвременного языка, – предусматривает аварию космического корабля и мучительную смерть двенадцати человек.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence id="146">
+          <su lang="from">— Nieuniknione — powiedział Voy wzruszając ramionami.</su>
+          <su lang="to">– К сожалению, это неизбежно, – сказал Вой, пожимая плечами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence id="147">
+          <su lang="from">— Ze swej strony — odparł Harlan — uważam, że MPZ można zredukować do zwykłego przeniesienia zasobnika z jednej półki na drugą.</su>
+          <su lang="to">– Я же, напротив, полагаю, что МНВ может быть сведено к простому перемещению небольшого ящика с одной полки на другую.</su>
+        </sentence>
+        <sentence id="148">
+          <su lang="from">Proszę!</su>
+          <su lang="to">Взгляните вот сюда.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence id="149">
+          <su lang="from">— Wskazał palcem, podkreślając wypielęgnowanym paznokciem malutki znaczek obok kolumny perforacji.</su>
+          <su lang="to">Харлан указательным пальцем сделал слабую отметку вдоль одной из серий перфораций.</su>
+        </sentence>
+        <sentence id="150">
+          <su lang="from">Voy w milczeniu rozmyślał nad wzorami.</su>
+          <su lang="to">Вой молчал, напряженно размышляя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence id="151">
+          <su lang="from">Harlan powiedział: — Czy to nie zmienia sytuacji pańskiego nieprzewidzianego rozwidlenia? Czy nie zmienia widełek mniejszego prawdopodobieństwa niemal w pewność i nie prowadzi do… — Do MPO — szepnął Voy.</su>
+          <su lang="to">– Это решение обладает тем преимуществом, что оно устраняет просмотренную вами вилку и приводит нас… – …к вероятной МОР, – тихо подсказал Вой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence id="152">
+          <su lang="from">— Właśnie, do Maksymalnie Pożądanej Odpowiedzi — rzekł Harlan.</su>
+          <su lang="to">– …к точной Максимальной ожидаемой реакции, – закончил Харлан.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence id="153">
+          <su lang="from">Voy podniósł głowę, na jego ciemnej twarzy malowała się walka między strachem a gniewem.</su>
+          <su lang="to">Вой поднял глаза; на его смуглом лице попеременно отражались гнев и досада.</su>
+        </sentence>
+        <sentence id="154">
+          <su lang="from">Harlan mimowolnie zauważył, że między dwoma dużymi górnymi siekaczami tego człowieka jest szpara, co nadawało mu króliczy wygląd, dziwnie kłócący się z tłumioną energią j ego słów.</su>
+          <su lang="to">Харлан мимоходом обратил внимание на щель между верхними передними зубами Социолога, делавшую его похожим на трусливого зайчишку. Но сходство было обманчивым. В словах Воя слышалась сдержанная сила.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence id="155">
+          <su lang="from">— Więc będę przesłuchany przez Radę Wszechczasów? — zapytał Voy.</su>
+          <su lang="to">– Полагаю, что Совет Времен еще укажет мне на эту ошибку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence id="156">
+          <su lang="from">— Nie sądzę.</su>
+          <su lang="to">– Сомневаюсь.</su>
+        </sentence>
+        <sentence id="157">
+          <su lang="from">O ile się orientuję, Rada Wszechczasów nie wie o tym.</su>
+          <su lang="to">Насколько мне известно, Совет ничего не заметил.</su>
+        </sentence>
+        <sentence id="158">
+          <su lang="from">W każdym razie projekt Zmiany Rzeczywistości przekazano mi bez komentarzy.</su>
+          <su lang="to">Во всяком случае, ваш проект Изменения попал ко мне без комментариев.</su>
+        </sentence>
+        <sentence id="159">
+          <su lang="from">— Nie wyjaśnił słowa "przekazano", ale Voy nie zadał żadnego pytania.</su>
+          <su lang="to">– Харлан не уточнил слова «попал», и Вой не спросил его об этом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence id="160">
+          <su lang="from">— Więc to pan wykrył tę pomyłkę?</su>
+          <su lang="to">– Следовательно, ошибку обнаружили лично вы?</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence id="161">
+          <su lang="from">— Ja.</su>
+          <su lang="to">– Да.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence id="162">
+          <su lang="from">— I nie złożył pan raportu Radzie Wszechczasów?</su>
+          <su lang="to">– И не сообщили о ней Совету?</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence id="163">
+          <su lang="from">— Nie złożyłem.</su>
+          <su lang="to">– Нет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence id="164">
+          <su lang="from">Najpierw ulga, a potem stężenie rysów twarzy.</su>
+          <su lang="to">В первый момент Вой облегченно вздохнул, затем нахмурил брови:</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence id="165">
+          <su lang="from">— Dlaczego nie?</su>
+          <su lang="to">– А почему?</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence id="166">
+          <su lang="from">— Mało kto potrafiłby uniknąć tej omyłki.</su>
+          <su lang="to">– Подобные ошибки почти неизбежны.</su>
+        </sentence>
+        <sentence id="167">
+          <su lang="from">Wydawało mi się, że mogę ją naprawić, zanim stanie się szkoda.</su>
+          <su lang="to">Я решил, что смогу исправить ее, пока не поздно.</su>
+        </sentence>
+        <sentence id="168">
+          <su lang="from">Zrobiłem to.</su>
+          <su lang="to">Так я и сделал.</su>
+        </sentence>
+        <sentence id="169">
+          <su lang="from">Po co ciągnąć sprawę dalej?</su>
+          <su lang="to">Чего же еще?</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence id="170">
+          <su lang="from">— No cóż… dziękuję. Techniku.</su>
+          <su lang="to">– Ну что ж, благодарю вас, Техник Харлан.</su>
+        </sentence>
+        <sentence id="171">
+          <su lang="from">Postąpił pan jak przyjaciel.</su>
+          <su lang="to">Вы поступили как настоящий друг.</su>
+        </sentence>
+        <sentence id="172">
+          <su lang="from">Omyłka sekcyjna, która, jak pan sam stwierdził, praktycznie była nie do uniknięcia, bardzo nieprzyjemnie wyglądałaby w raporcie.</su>
+          <su lang="to">Хотя ошибка, допущенная нашим Сектором, как вы сами сказали, почти неизбежна, боюсь, что в протоколе Совета она выглядела бы непростительной оплошностью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence id="173">
+          <su lang="from">— Zrobił krótką przerwę i ciągnął dalej: — Oczywiście, w obliczu zmian w osobowości, jakie zostaną wprowadzone przez tę Zmianę, śmierć paru ludzi na wstępie nie ma większego znaczenia.</su>
+          <su lang="to">После секундной паузы Вой продолжал: – Впрочем, что значит преждевременная смерть нескольких человек по сравнению с теми сдвигами в миллионах личностей, которые будут вызваны предстоящим Изменением Реальности.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence id="174">
+          <su lang="from">Harlan myślał obojętnie: nie wygląda na to, żeby był szczególnie wdzięczny. Prawdopodobnie jest zły.</su>
+          <su lang="to">«Не очень-то похоже на искреннюю благодарность, – мелькнуло в голове у Харлана, – вероятно, он обиделся.</su>
+        </sentence>
+        <sentence id="175">
+          <su lang="from">Gdy przestanie myśleć, będzie jeszcze bardziej zły, że Technik uchronił go przed naganą służbową.</su>
+          <su lang="to">А если он еще к тому же подумает, что от выговора его спас какой-то Техник, то ему станет жаль себя до слез.</su>
+        </sentence>
+        <sentence id="176">
+          <su lang="from">Gdybym był Socjologiem, uściskałby mi rękę, ale Technikowi…</su>
+          <su lang="to">Будь я Социологом, он горячо пожал бы мне руку, но Технику он руки не подаст.</su>
+        </sentence>
+        <sentence id="177">
+          <su lang="from">Z zimną krwią potrafi skazać dziesięciu ludzi na śmierć, lecz nie dotknie Technika.</su>
+          <su lang="to">Даже кончиком пальца не притронется к Технику, а сам готов не моргнув глазом обречь двенадцать человек на смерть от удушья».</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence id="178">
+          <su lang="from">A ponieważ czekanie, aż gniew Voya wzrośnie, byłoby fatalne, Harlan oznajmił bez zwłoki:</su>
+          <su lang="to">И, так как ждать, пока Социолог обидится всерьез, значило все погубить, Харлан решил идти напролом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence id="179">
+          <su lang="from">— Myślę, że pana wdzięczność sięga tak daleko, iż pańska sekcja wykona dla mnie pewną małą robótkę.</su>
+          <su lang="to">– Я надеюсь, что в знак благодарности вы не откажете мне в маленькой услуге?</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence id="180">
+          <su lang="from">— Robótkę?</su>
+          <su lang="to">– Услуге?</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence id="181">
+          <su lang="from">— Problem Biografii.</su>
+          <su lang="to">– Мне нужен Расчет Судьбы.</su>
+        </sentence>
+        <sentence id="182">
+          <su lang="from">Mam przy sobie odpowiednie informacje. Mam również dane dotyczące proponowanej Zmiany Rzeczywistości w 482.</su>
+          <su lang="to">Проект Изменения Реальности в 482-м и все необходимые данные у меня с собой.</su>
+        </sentence>
+        <sentence id="183">
+          <su lang="from">Chciałbym znać wpływ tej zmiany na prawdopodobną przyszłość pewnej osoby.</su>
+          <su lang="to">Мне надо выяснить влияние этого Изменения на судьбу определенной личности.</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence id="184">
+          <su lang="from">— Chyba niezupełnie pana rozumiem — powiedział z wolna Socjolog.</su>
+          <su lang="to">– Я не вполне уверен, что правильно понял вас, Техник, – медленно проговорил Вой.</su>
+        </sentence>
+        <sentence id="185">
+          <su lang="from">— Z pewnością ma pan przecież możność załatwienia tego w swojej sekcji?</su>
+          <su lang="to">– Точно так же вы можете сделать все это в своем Секторе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence id="186">
+          <su lang="from">— Mam.</su>
+          <su lang="to">– Мог бы.</su>
+        </sentence>
+        <sentence id="187">
+          <su lang="from">Jestem jednak zaangażowany w prywatne badania, których jeszcze nie chciałbym wykazywać w raportach.</su>
+          <su lang="to">Но мне не хочется, чтобы о моих личных исследованиях стало известно до их завершения.</su>
+        </sentence>
+        <sentence id="188">
+          <su lang="from">Byłoby trudno wykonać to w mojej sekcji bez…</su>
+          <su lang="to">Проведение этого Расчета в моем Секторе встречает известные трудности, да и к тому же…</su>
+        </sentence>
+        <sentence id="189">
+          <su lang="from">— Gestem wyraził konkluzję nie dokończonego zdania.</su>
+          <su lang="to">– Харлан завершил фразу неопределенным жестом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence id="190">
+          <su lang="from">Voy powiedział:</su>
+          <su lang="to">– Вас не устраивает официальный путь?</su>
+        </sentence>
+        <sentence id="191">
+          <su lang="from">— Więc nie chce pan robić tego oficjalnie?</su>
+          <su lang="to">Вы хотите совершить этот Расчет тайно?</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence id="192">
+          <su lang="from">— Chcę, żeby to zostało zrobione poufnie.</su>
+          <su lang="to">– Да.</su>
+        </sentence>
+        <sentence id="193">
+          <su lang="from">Pragnę poufnej odpowiedzi.</su>
+          <su lang="to">Мне нужен строго конфиденциальный ответ.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence id="194">
+          <su lang="from">— Hm… to jest wbrew przepisom.</su>
+          <su lang="to">– Но вы же знаете, что это противозаконно.</su>
+        </sentence>
+        <sentence id="195">
+          <su lang="from">Nie mogę się na to zgodzić.</su>
+          <su lang="to">Я не могу пойти на такое вопиющее нарушение правил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence id="196">
+          <su lang="from">Harlan zmarszczył czoło.</su>
+          <su lang="to">Харлан нахмурился:</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence id="197">
+          <su lang="from">— Chyba nie bardziej wbrew przepisom niż moja rezygnacja z zameldowania Radzie Wszechczasów o pańskiej omyłce.</su>
+          <su lang="to">– Но ведь и я нарушил правила, не сообщив Совету о вашей ошибке.</su>
+        </sentence>
+        <sentence id="198">
+          <su lang="from">Przeciwko temu nie zgłosił pan zastrzeżeń.</su>
+          <su lang="to">Однако против первого нарушения вы почему-то не возражали.</su>
+        </sentence>
+        <sentence id="199">
+          <su lang="from">Jeśli mamy postępować ściśle oficjalnie w jednej sprawie, musimy być również oficjalni w drugiej.</su>
+          <su lang="to">Если уж быть таким щепетильным в одном случае, то следует быть не менее щепетильным и в другом.</su>
+        </sentence>
+        <sentence id="200">
+          <su lang="from">Sądzę, że pan mnie rozumie?</su>
+          <su lang="to">Надеюсь, вы меня понимаете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence id="201">
+          <su lang="from">Wystarczyło spojrzeć na twarz Voya.</su>
+          <su lang="to">Вой отлично все понял – об этом красноречиво свидетельствовало выражение его лица.</su>
+        </sentence>
+        <sentence id="202">
+          <su lang="from">Socjolog wyciągnął rękę:</su>
+          <su lang="to">Он протянул руку:</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence id="203">
+          <su lang="from">— Czy mogą zobaczyć dokumenty?</su>
+          <su lang="to">– Разрешите взглянуть?</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence id="204">
+          <su lang="from">Harlan poczuł pewną ulgę.</su>
+          <su lang="to">У Харлана отлегло от сердца.</su>
+        </sentence>
+        <sentence id="205">
+          <su lang="from">Główna przeszkoda została pokonana.</su>
+          <su lang="to">Основное препятствие осталось позади.</su>
+        </sentence>
+        <sentence id="206">
+          <su lang="from">Patrzył w napięciu, jak Voy pochyla głowę nad arkuszami.</su>
+          <su lang="to">Он внимательно следил за Социологом, молча изучавшим привезенные им перфоленты.</su>
+        </sentence>
+        <sentence id="207">
+          <su lang="from">Tylko raz Socjolog się odezwał:</su>
+          <su lang="to">Только один раз Вой нарушил молчание:</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence id="208">
+          <su lang="from">— Och, Czasie, to jest mała Zmiana Rzeczywistości.</su>
+          <su lang="to">– Клянусь Временем, это же совсем ничтожное Изменение!</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence id="209">
+          <su lang="from">Harlan wykorzystał okazję i zaczął improwizować:</su>
+          <su lang="to">Воспользовавшись случаем, Харлан решил рискнуть.</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence id="210">
+          <su lang="from">— Tak jest.</su>
+          <su lang="to">– В том-то и дело.</su>
+        </sentence>
+        <sentence id="211">
+          <su lang="from">Chyba bardzo mała.</su>
+          <su lang="to">Слишком ничтожное, на мой взгляд.</su>
+        </sentence>
+        <sentence id="212">
+          <su lang="from">O to toczy się cały spór. To Zmiana poniżej krytycznej różnicy, więc wybrałem pewną jednostkę na próbę. Oczywiście byłoby niedyplomatycznie wykorzystywać środki naszej sekcji, póki nie uzyskam pewności, że mam rację.</su>
+          <su lang="to">Но вы, конечно, понимаете, что с моей стороны было бы неэтично проводить эти Расчеты в моем Секторе, не убедившись предварительно в своей правоте.</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence id="213">
+          <su lang="from">Voy nie odpowiadał i Harlan urwał. Nie było sensu przeciągać tego dalej.</su>
+          <su lang="to">Вой ничего не ответил, и Харлан умолк, боясь наговорить лишнего.</su>
+        </sentence>
+        <sentence id="214">
+          <su lang="from">Voy wstał.</su>
+          <su lang="to">Наконец Социолог встал:</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence id="215">
+          <su lang="from">— Dam to jednemu z naszych Biografistów.</su>
+          <su lang="to">– Я передам ваш материал моему Расчетчику.</su>
+        </sentence>
+        <sentence id="216">
+          <su lang="from">Sprawę utrzymamy w tajemnicy.</su>
+          <su lang="to">Мы все сохраним в тайне.</su>
+        </sentence>
+        <sentence id="217">
+          <su lang="from">Rozumie pan chyba, że nie można tego uważać za precedens.</su>
+          <su lang="to">Надеюсь, вы понимаете, что это не следует рассматривать как прецедент.</su>
+        </sentence>
+      </p>
+      <p type="text" id="95">
+        <sentence id="218">
+          <su lang="from">— Oczywiście, że nie.</su>
+          <su lang="to">– Разумеется.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence id="219">
+          <su lang="from">— I jeśli nie ma pan nic przeciwko temu, chętnie poszedłbym popatrzeć, jak się dokonuje Zmiana Rzeczywistości.</su>
+          <su lang="to">– В таком случае, если вы не возражаете, я хотел бы поскорее осуществить Изменение Реальности.</su>
+        </sentence>
+        <sentence id="220">
+          <su lang="from">Mam nadzieję, że zrobi pan nam ten zaszczyt i przeprowadzi MPZ osobiście.</su>
+          <su lang="to">Смею надеяться, что вы окажете нам честь и лично совершите МНВ.</su>
+        </sentence>
+      </p>
+      <p type="text" id="97">
+        <sentence id="221">
+          <su lang="from">Harlan skinął głową.</su>
+          <su lang="to">Харлан кивнул:</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence id="222">
+          <su lang="from">— Przyjmuję całkowitą odpowiedzialność.</su>
+          <su lang="to">– Всю ответственность я беру на себя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence id="223">
+          <su lang="from">Kiedy weszli do sali obserwacyjnej, działały tam dwa ekrany.</su>
+          <su lang="to">Когда они вошли в наблюдательную камеру, там уже были включены два экрана.</su>
+        </sentence>
+        <sentence id="224">
+          <su lang="from">Inżynierowie ześrodkowali je już wedle dokładnych koordynat w Przestrzeni i Czasie, a potem wyszli.</su>
+          <su lang="to">Инженеры заранее настроили Хроноскопы на нужные координаты в Пространстве и Времени и удалились.</su>
+        </sentence>
+        <sentence id="225">
+          <su lang="from">Harlan i Voy byli sami w błyszczącej sali.</su>
+          <su lang="to">Харлан и Вой были одни в сверкающей огнями комнате.</su>
+        </sentence>
+        <sentence id="226">
+          <su lang="from">(Urządzenia z emulsji cząsteczkowych były widoczne i nawet trochę więcej niż widoczne, lecz Harlan patrzył na ekrany).</su>
+          <su lang="to">(Блеск молекулярных пленок по-прежнему слепил глаза, но Харлан смотрел только на экраны.)</su>
+        </sentence>
+        <sentence id="227">
+          <su lang="from">Oba obrazy tkwiły nieruchomo.</su>
+          <su lang="to">Оба изображения были неподвижны.</su>
+        </sentence>
+        <sentence id="228">
+          <su lang="from">Wyglądały na fotografie, ponieważ przedstawiały matematyczne momenty Czasu.</su>
+          <su lang="to">Они соответствовали математически точным мгновениям Времени.</su>
+        </sentence>
+      </p>
+      <p type="text" id="100">
+        <sentence id="229">
+          <su lang="from">Jeden obraz był w ostrych, naturalnych barwach i ukazywał jakieś maszyny;</su>
+          <su lang="to">Одно изображение сохранило яркие естественные краски.</su>
+        </sentence>
+        <sentence id="230">
+          <su lang="from">Harlan wiedział, że jest to maszynownia doświadczalnego statku kosmicznego.</su>
+          <su lang="to">Харлан узнал в нем машинный зал экспериментального космического корабля.</su>
+        </sentence>
+        <sentence id="231">
+          <su lang="from">Zamykały się właśnie drzwi i w szczelinie tkwił połyskujący but z czerwonego, na pół przezroczystego materiału.</su>
+          <su lang="to">Дверь еще не успела закрыться, и в оставшейся щели виден был сверкающий башмак из красного полупрозрачного материала.</su>
+        </sentence>
+        <sentence id="232">
+          <su lang="from">Ale nie poruszał się.</su>
+          <su lang="to">Башмак не шевелился.</su>
+        </sentence>
+        <sentence id="233">
+          <su lang="from">Nic się nie poruszało.</su>
+          <su lang="to">Все застыло, словно в мертвом царстве.</su>
+        </sentence>
+        <sentence id="234">
+          <su lang="from">Gdyby obraz był na tyle ostry, że byłoby na nim widać drobiny pyłu w powietrzu, one też byłyby nieruchome.</su>
+          <su lang="to">Если бы резкость изображения позволила разглядеть пылинки в воздухе, то и они были бы неподвижны.</su>
+        </sentence>
+      </p>
+      <p type="text" id="101">
+        <sentence id="235">
+          <su lang="from">Voy powiedział: — Przez dwie godziny i trzydzieści sześć minut od obserwowanego momentu ta maszynownia pozostanie pusta. To znaczy — w bieżącej Rzeczywistości.</su>
+          <su lang="to">– Машинный зал будет пуст два часа тридцать шесть минут, – сказал Вой, – разумеется, в текущей Реальности.</su>
+        </sentence>
+      </p>
+      <p type="text" id="102">
+        <sentence id="236">
+          <su lang="from">— Wiem — mruknął Harlan.</su>
+          <su lang="to">– Знаю, – пробормотал Харлан, натягивая перчатки.</su>
+        </sentence>
+        <sentence id="237">
+          <su lang="from">Wkładał rękawiczki i utrwalał sobie w pamięci położenie na półce zasobnika o decydującym znaczeniu, mierząc kroki do niego, wybierając najlepsze miejsce, w które należało go przenieść.</su>
+          <su lang="to">Он отметил быстрым взглядом положение нужного ящика на полке, измерил число шагов до него, нашел, куда его следует переместить.</su>
+        </sentence>
+        <sentence id="238">
+          <su lang="from">Pospiesznie rzucił okiem na drugi ekran.</su>
+          <su lang="to">Он мельком взглянул на второй экран.</su>
+        </sentence>
+      </p>
+      <p type="text" id="103">
+        <sentence id="239">
+          <su lang="from">Podczas gdy maszynownia znajdująca się w polu określonym jako "teraźniejszość" — w odniesieniu do tej sekcji Wieczności, w jakiej się znajdowali — była jasna i w naturalnych kolorach, to drugi obraz, późniejszy o jakieś dwadzieścia pięć Stuleci, miał błękitną poświatę, taką jak widoki z "przyszłości".</su>
+          <su lang="to">Поскольку машинный зал находился во Времени, которое по отношению к данному Сектору Вечности можно было считать «настоящим», то его изображение было четким и сохраняло естественные краски. Второе изображение отстояло от первого на двадцать пять Столетий. Подобно всем изображениям «будущего» оно было подернуто голубой дымкой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="104">
+        <sentence id="240">
+          <su lang="from">To był port kosmiczny.</su>
+          <su lang="to">Это был космический порт.</su>
+        </sentence>
+        <sentence id="241">
+          <su lang="from">Intensywnie niebieskie niebo, niebieskawo zabarwione budynki z surowego metalu na niebieskozielonym gruncie.</su>
+          <su lang="to">Ярко-синее небо; отливающие синевой металлические конструкции, зеленовато-синяя почва.</su>
+        </sentence>
+        <sentence id="242">
+          <su lang="from">Niebieski cylinder dziwnego kształtu o wybrzuszonym dnie stał na pierwszym planie.</su>
+          <su lang="to">На переднем плане стоял голубой цилиндр необычной формы, с массивным основанием.</su>
+        </sentence>
+        <sentence id="243">
+          <su lang="from">Dwa podobne znajdowały się w głębi.</su>
+          <su lang="to">Два таких же цилиндра виднелись поодаль.</su>
+        </sentence>
+        <sentence id="244">
+          <su lang="from">Wszystkie trzy wznosiły swe rozdwojone dzioby do góry, a rozcięcia sięgały głęboko w kadłub statku.</su>
+          <su lang="to">Все три цилиндра глядели расщепленными носами вверх; расщелина почти надвое рассекала каждый корабль.</su>
+        </sentence>
+      </p>
+      <p type="text" id="105">
+        <sentence id="245">
+          <su lang="from">— Bardzo dziwaczne — powiedział zamyślony Harlan.</su>
+          <su lang="to">Харлан поднял брови. – Как странно они выглядят!</su>
+        </sentence>
+      </p>
+      <p type="text" id="106">
+        <sentence id="246">
+          <su lang="from">— Elektrograwitacyjne — odparł Voy.</su>
+          <su lang="to">– Электрогравитация, – сухо ответил Вой.</su>
+        </sentence>
+        <sentence id="247">
+          <su lang="from">— Tylko 2481 Stulecie ma elektrograwitacyjne pojazdy kosmiczne.</su>
+          <su lang="to">– За всю историю человечества только в 2871-м были созданы электрогравитационные космические корабли.</su>
+        </sentence>
+        <sentence id="248">
+          <su lang="from">Bez dysz, bez silników jądrowych.</su>
+          <su lang="to">В них нет ни камер сгорания, ни ядерных установок.</su>
+        </sentence>
+        <sentence id="249">
+          <su lang="from">Konstrukcja, która daje duże przeżycia estetyczne.</su>
+          <su lang="to">Они красивы; их конструкция доставляет эстетическое наслаждение.</su>
+        </sentence>
+        <sentence id="250">
+          <su lang="from">Wielka szkoda, że musieliśmy to poddać Zmianie.</su>
+          <su lang="to">Жаль, что Изменение уничтожит их, очень жаль.</su>
+        </sentence>
+        <sentence id="251">
+          <su lang="from">Wielka szkoda.</su>
+          <su lang="to">– Его устремленный на Харлана взгляд выражал открытое неодобрение.</su>
+        </sentence>
+      </p>
+      <p type="text" id="107">
+        <sentence id="252">
+          <su lang="from">— Utkwił oczy w Marianie z widoczną dezaprobatą.</su>
+          <su lang="to">Харлан стиснул зубы.</su>
+        </sentence>
+        <sentence id="253">
+          <su lang="from">Harlan zacisnął wargi.</su>
+          <su lang="to">Неодобрение.</su>
+        </sentence>
+        <sentence id="254">
+          <su lang="from">Wyraźna dezaprobata!</su>
+          <su lang="to">А чего еще мог он ждать?</su>
+        </sentence>
+        <sentence id="255">
+          <su lang="from">Czemu nie?</su>
+          <su lang="to">Ведь он Техник.</su>
+        </sentence>
+      </p>
+      <p type="text" id="108">
+        <sentence id="256">
+          <su lang="from">Przecież jest Technikiem.</su>
+          <su lang="to">Совесть остальных была чиста.</su>
+        </sentence>
+        <sentence id="257">
+          <su lang="from">Tak to jest: był kiedyś pewien Obserwator, który stwierdził zjawisko narkomanii.</su>
+          <su lang="to">Сведения о потреблении наркотиков собрал, конечно, какой-то Наблюдатель.</su>
+        </sentence>
+        <sentence id="258">
+          <su lang="from">Był jakiś Statystyk, który wykazał, że najnowsze Zmiany pomnożyły liczbę narkomanów; osiągnęła ona największy procent w całej bieżącej Rzeczywistości człowieka.</su>
+          <su lang="to">Статистик обработал их и показал, что число наркоманов в данной Реальности достигло рекордной цифры.</su>
+        </sentence>
+        <sentence id="259">
+          <su lang="from">Jakiś Socjolog, prawdopodobnie sam Voy, opracował ten problem z psychiatrycznego punktu widzenia.</su>
+          <su lang="to">Социолог – возможно, сам Вой – построил по этим данным Психологическую характеристику общества.</su>
+        </sentence>
+        <sentence id="260">
+          <su lang="from">Wreszcie jakiś Kalkulator udowodnił, że w celu ograniczenia narkomanii do bezpiecznego poziomu konieczna jest Zmiana Rzeczywistości, i wykrył, że w efekcie ubocznym musi na tym ucierpieć elektrograwitacyjna komunikacja kosmiczna.</su>
+          <su lang="to">Наконец Вычислитель рассчитал Изменение, сводящее потребление наркотиков до безопасного уровня, и обнаружил, что побочным эффектом этого Изменения явится исчезновение электрогравитационных космолетов.</su>
+        </sentence>
+        <sentence id="261">
+          <su lang="from">Dziesięciu czy stu ludzi w całej Wieczności przykładało do tego rękę.</su>
+          <su lang="to">Десятки, сотни людей, занимающих в Вечности самые различные посты, приняли участие в разработке этого проекта.</su>
+        </sentence>
+      </p>
+      <p type="text" id="109">
+        <sentence id="262">
+          <su lang="from">Lecz wreszcie, na koniec, musi wkroczyć Technik, taki jak Harlan.</su>
+          <su lang="to">Но до сих пор это был только проект. Для его осуществления на сцену должен выйти Техник (например, он сам).</su>
+        </sentence>
+        <sentence id="263">
+          <su lang="from">Wypełniając dyrektywy, jakie wszyscy inni wymyślili i mu przekazali, musi zapoczątkować aktualną Zmianę Rzeczywistości.</su>
+          <su lang="to">Именно Техник, следуя разработанным для него инструкциям, совершит то самое действие (МНВ), которое вызовет Изменение.</su>
+        </sentence>
+        <sentence id="264">
+          <su lang="from">A potem wszyscy patrzą na niego i oskarżają wyniośle.</su>
+          <su lang="to">И тогда на него обрушатся гнев и презрение остальных.</su>
+        </sentence>
+        <sentence id="265">
+          <su lang="from">Ich spojrzenia mówią: "To nie my, to ty zniszczyłeś to piękno".</su>
+          <su lang="to">Их высокомерные взгляды скажут ему: «Мы тут ни при чем.</su>
+        </sentence>
+        <sentence id="266">
+          <su lang="from">I za to będą go potępiać i unikać.</su>
+          <su lang="to">Ты один виноват.</su>
+        </sentence>
+        <sentence id="267">
+          <su lang="from">Zrzucać własną winę na jego barki i będą nim pogardzali.</su>
+          <su lang="to">Это ты своими руками уничтожил такую красоту».</su>
+        </sentence>
+        <sentence id="268">
+          <su lang="from">Harian powiedział szorstko:</su>
+          <su lang="to">И чем сильнее будет в них говорить стремление оправдать себя, тем упорнее будут они избегать и сторониться Техника.</su>
+        </sentence>
+      </p>
+      <p type="text" id="110">
+        <sentence id="269">
+          <su lang="from">— Statki się nie liczą.</su>
+          <su lang="to">– Корабли не в счет, – резко заявил Харлан, – нас с вами должны интересовать вот эти штучки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="111">
+        <sentence id="270">
+          <su lang="from">Jesteśmy zainteresowani tylko tymi istotami.</su>
+          <su lang="to">А «штучками» были люди.</su>
+        </sentence>
+        <sentence id="271">
+          <su lang="from">"Istoty" były ludźmi, wyglądającymi karłowato na tle statku kosmicznego, tak jak Ziemia i ziemskie społeczeństwa wyglądają na tle Kosmosu.</su>
+          <su lang="to">Рядом с громадами кораблей они действительно казались карликами, точно так же, как сама Земля и все людские дела кажутся ничтожными из космической дали.</su>
+        </sentence>
+      </p>
+      <p type="text" id="112">
+        <sentence id="272">
+          <su lang="from">Ci ludzie przypominali grupę marionetek.</su>
+          <su lang="to">Крохотные фигурки людей были раскиданы маленькими группами по всему космодрому.</su>
+        </sentence>
+        <sentence id="273">
+          <su lang="from">Ich malutkie rączki i nóżki zastygły w nienaturalnych pozach uchwyconych w określonym momencie Czasu.</su>
+          <su lang="to">Они застыли в причудливых позах с потешно задранными тонюсенькими ручками и ножками.</su>
+        </sentence>
+      </p>
+      <p type="text" id="113">
+        <sentence id="274">
+          <su lang="from">Voy wzruszył ramionami.</su>
+          <su lang="to">Вой молча пожал плечами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="114">
+        <sentence id="275">
+          <su lang="from">Harian właśnie przymocowywał mały generator pola do swego lewego przegubu.</su>
+          <su lang="to">Харлан надел портативный генератор Темпорального поля на запястье левой руки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="115">
+        <sentence id="276">
+          <su lang="from">— Trzeba wykonać tę robotę.</su>
+          <su lang="to">– Давайте кончать с этим делом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="116">
+        <sentence id="277">
+          <su lang="from">— Chwileczkę.</su>
+          <su lang="to">– Погодите.</su>
+        </sentence>
+        <sentence id="278">
+          <su lang="from">Chcę się skontaktować z Biografistąi dowiedzieć, ile czasu zajmie mu ta praca dla pana.</su>
+          <su lang="to">Сначала я свяжусь с Расчетчиком и узнаю, как скоро он может выполнить вашу просьбу.</su>
+        </sentence>
+        <sentence id="279">
+          <su lang="from">Chciałbym, żeby i to zostało wykonane.</su>
+          <su lang="to">Мне хочется поскорее покончить и с тем и с другим.</su>
+        </sentence>
+      </p>
+      <p type="text" id="117">
+        <sentence id="280">
+          <su lang="from">Jego ręce manipulowały sprawnie przy małym ruchomym przycisku, a ucho słuchało uważnie serii tyknięć, które nadeszły w odpowiedzi.</su>
+          <su lang="to">Вой быстро застучал маленьким подвижным контактом, в ответ послышалась серия щелчков.</su>
+        </sentence>
+      </p>
+      <p type="text" id="118">
+        <sentence id="281">
+          <su lang="from">(Jeszcze jedna charakterystyczna cecha tej sekcji Wieczności, myślał Harian — kody dźwiękowe.</su>
+          <su lang="to">«Вот еще одна характерная черта Столетия, – подумал Харлан, – звуковой код.</su>
+        </sentence>
+        <sentence id="282">
+          <su lang="from">Mądre, ale afektowane, podobnie jak emulsje cząsteczkowe).</su>
+          <su lang="to">Остроумно, но уж очень претенциозно, так же как и эти молекулярные пленки».</su>
+        </sentence>
+      </p>
+      <p type="text" id="119">
+        <sentence id="283">
+          <su lang="from">— Mówi, że nie zajmie mu to więcej niż trzy godziny — rzekł wreszcie Voy. — Poza tym podziwia imię badanej osoby.</su>
+          <su lang="to">– Он говорит, что справится часа за три, – произнес наконец Вой, – кстати, он просил передать вам, что ему понравилось имя этой особы.</su>
+        </sentence>
+        <sentence id="284">
+          <su lang="from">Noys Lambent.</su>
+          <su lang="to">Нойс Ламбент.</su>
+        </sentence>
+        <sentence id="285">
+          <su lang="from">To kobieta, prawda?</su>
+          <su lang="to">Женщина, конечно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="120">
+        <sentence id="286">
+          <su lang="from">Harlanowi zaschło w gardle.</su>
+          <su lang="to">У Харлана перехватило дыхание.</su>
+        </sentence>
+      </p>
+      <p type="text" id="121">
+        <sentence id="287">
+          <su lang="from">— Tak.</su>
+          <su lang="to">– Да.</su>
+        </sentence>
+      </p>
+      <p type="text" id="122">
+        <sentence id="288">
+          <su lang="from">Wargi Voya rozciągnęły się w uśmiechu.</su>
+          <su lang="to">Губы Воя скривились в улыбку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="123">
+        <sentence id="289">
+          <su lang="from">— To brzmi interesująco.</su>
+          <su lang="to">– Звучит заманчиво.</su>
+        </sentence>
+        <sentence id="290">
+          <su lang="from">Chciałbym ją poznać.</su>
+          <su lang="to">Я бы и сам не прочь взглянуть на нее.</su>
+        </sentence>
+        <sentence id="291">
+          <su lang="from">Od miesięcy nie mieliśmy kobiet w naszej sekcji.</su>
+          <su lang="to">В этом Секторе вот уже несколько месяцев не было ни одной женщины.</su>
+        </sentence>
+      </p>
+      <p type="text" id="124">
+        <sentence id="292">
+          <su lang="from">Harian bał się odpowiedzieć.</su>
+          <su lang="to">Харлан испугался, что голос выдаст его.</su>
+        </sentence>
+        <sentence id="293">
+          <su lang="from">Przez chwilę wpatrywał się w Socjologa, a potem gwałtownie się odwrócił.</su>
+          <su lang="to">Он ничего не ответил, лишь пристально посмотрел на Социолога и отвернулся.</su>
+        </sentence>
+      </p>
+      <p type="text" id="125">
+        <sentence id="294">
+          <su lang="from">Jeśli istniała jakaś skaza na Wieczności, to właśnie w związku z kobietami.</su>
+          <su lang="to">Отсутствие женщин было единственным изъяном в безупречной организации Вечности.</su>
+        </sentence>
+        <sentence id="295">
+          <su lang="from">Wiedział o tym niemal od pierwszego wejścia w Wieczność, lecz osobiście zaczął odczuwać dopiero od tego dnia, kiedy spotkał Noys.</su>
+          <su lang="to">Харлан узнал о нем сразу же после вступления в Вечность, но, лишь встретив Нойс, впервые почувствовал его на себе.</su>
+        </sentence>
+        <sentence id="296">
+          <su lang="from">Od tego momentu była już prosta droga do punktu, w którym się teraz znalazł, zakłamany wobec swej przysięgi Wiecznościowca i wszystkiego, w co wierzył.</su>
+          <su lang="to">С этого дня он катился по наклонной дорожке, пока не изменил присяге Вечного и всему, во что свято верил прежде.</su>
+        </sentence>
+      </p>
+      <p type="text" id="126">
+        <sentence id="297">
+          <su lang="from">— Dla kogo?</su>
+          <su lang="to">Ради Нойс.</su>
+        </sentence>
+      </p>
+      <p type="text" id="127">
+        <sentence id="298">
+          <su lang="from">Dla Noys.</su>
+          <su lang="to">Ради нее одной…</su>
+        </sentence>
+        <sentence id="299">
+          <su lang="from">I nie wstydził się. To właśnie było najbardziej wstrząsające.</su>
+          <su lang="to">Ему не было стыдно – вот что было самым ужасным.</su>
+        </sentence>
+        <sentence id="300">
+          <su lang="from">Nie wstydził się.</su>
+          <su lang="to">Ему не было стыдно.</su>
+        </sentence>
+        <sentence id="301">
+          <su lang="from">Nie czuł się winny lawiny zbrodni, jaką spowodował, zbrodni, wobec których ostatnia — nielegalne użycie poufnego Biografowania — była zaledwie drobnym grzechem.</su>
+          <su lang="to">Он не испытывал угрызений совести за ту длинную цепь преступлений, которые он уже совершил и по сравнению с которыми неэтичное использование секретного Расчета Судьбы выглядело мелким, незначительным проступком.</su>
+        </sentence>
+      </p>
+      <p type="text" id="128">
+        <sentence id="302">
+          <su lang="from">Jeśli będzie trzeba, nie cofnie się przed najgorszym.</su>
+          <su lang="to">Если понадобится, он совершит еще более тяжкие преступления.</su>
+        </sentence>
+      </p>
+      <p type="text" id="129">
+        <sentence id="303">
+          <su lang="from">Po raz pierwszy nasunęła mu się wyraziście pewna myśl.</su>
+          <su lang="to">В это мгновение в его голове промелькнула мысль, оказавшая впоследствии такое влияние на его жизнь.</su>
+        </sentence>
+        <sentence id="304">
+          <su lang="from">I chociaż ją odrzucił ze zgrozą, wiedział, że skoro raz już się pojawiła, to na pewno wróci.</su>
+          <su lang="to">И хотя в первый момент Харлан в ужасе отогнал ее, но в глубине души он уже тогда был уверен, что, явившись однажды, она вернется еще не раз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="130">
+        <sentence id="305">
+          <su lang="from">Myśl była prosta: jeśli zajdzie potrzeba, zniszczy Wieczność.</su>
+          <su lang="to">Мысль была проста: если не останется другого выхода, он уничтожит Вечность.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

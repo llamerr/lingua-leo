@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-import { GuestbookForm } from './GuestbookForm';
+import { BookForm } from './AuthorForm';
 
 type IEditableGuestbookEntryProps = {
   id: number;
@@ -31,7 +31,7 @@ const EditableGuestbookEntry = (props: IEditableGuestbookEntryProps) => {
         }}
       >
         <svg
-          className="h-6 w-6 stroke-current"
+          className="size-6 stroke-current"
           fill="none"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -44,7 +44,7 @@ const EditableGuestbookEntry = (props: IEditableGuestbookEntryProps) => {
 
       <div className="ml-1 grow">
         {isEditing ? (
-          <GuestbookForm
+          <BookForm
             edit
             id={props.id}
             defaultValues={{
@@ -55,8 +55,7 @@ const EditableGuestbookEntry = (props: IEditableGuestbookEntryProps) => {
           />
         ) : (
           <>
-            <span className="text-gray-500">{props.username}:</span>{' '}
-            <span className="text-gray-800">{props.body}</span>
+            <span className="text-gray-500">{props.username}:</span> <span className="text-gray-800">{props.body}</span>
           </>
         )}
       </div>

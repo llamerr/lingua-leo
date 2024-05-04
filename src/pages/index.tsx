@@ -24,21 +24,17 @@ const Index = () => (
     </a>
     <h2 className="mt-5 text-2xl font-bold">Sponsors</h2>
     <Sponsors />
-    <h2 className="mt-5 text-2xl font-bold">
-      Boilerplate code for your Nextjs project with Tailwind CSS
-    </h2>
+    <h2 className="mt-5 text-2xl font-bold">Boilerplate code for your Nextjs project with Tailwind CSS</h2>
     <p>
       <span role="img" aria-label="rocket">
         🚀
       </span>{' '}
-      Next.js Boilerplate is a starter code for your Next js project by putting
-      developer experience first .{' '}
+      Next.js Boilerplate is a starter code for your Next js project by putting developer experience first .{' '}
       <span role="img" aria-label="zap">
         ⚡️
       </span>{' '}
-      Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
-      VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with Clerk,
-      Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and Turso.
+      Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS,
+      Authentication with Clerk, Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and Turso.
     </p>
     <h3 className="text-lg font-semibold">Next js Boilerplate Features</h3>
     <p>Developer experience first:</p>
@@ -108,30 +104,25 @@ const Index = () => (
           🔒
         </span>{' '}
         Authentication with{' '}
-        <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
-          Clerk
-        </a>
+        <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">Clerk</a>
       </li>
       <li>
         <span role="img" aria-label="package">
           📦
         </span>{' '}
-        Type-safe ORM with DrizzleORM, compatible with SQLite, PostgreSQL, and
-        MySQL
+        Type-safe ORM with DrizzleORM, compatible with SQLite, PostgreSQL, and MySQL
       </li>
       <li>
         <span role="img" aria-label="computer_disk">
           💽
         </span>{' '}
-        Global Database with{' '}
-        <a href="https://turso.tech/?utm_source=nextjsstarterbp">Turso</a>
+        Global Database with <a href="https://turso.tech/?utm_source=nextjsstarterbp">Turso</a>
       </li>
       <li>
         <span role="img" aria-label="no_entry_sign">
           🗂
         </span>{' '}
-        VSCode configuration: Debug, Settings, Tasks and extension for PostCSS,
-        ESLint, Prettier, TypeScript
+        VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
       </li>
       <li>
         <span role="img" aria-label="robot">
@@ -143,10 +134,7 @@ const Index = () => (
         <span role="img" aria-label="robot">
           ⚙️
         </span>{' '}
-        <a
-          href="https://www.npmjs.com/package/@next/bundle-analyzer"
-          rel="nofollow"
-        >
+        <a href="https://www.npmjs.com/package/@next/bundle-analyzer" rel="nofollow">
           Bundler Analyzer
         </a>
       </li>
@@ -197,10 +185,7 @@ const Index = () => (
     </ul>
     <p>
       Check our GitHub project for more information about{' '}
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">
-        Nextjs Boilerplate
-      </a>
-      .
+      <a href="https://github.com/ixartz/Next-js-Boilerplate">Nextjs Boilerplate</a>.
     </p>
   </Main>
 );

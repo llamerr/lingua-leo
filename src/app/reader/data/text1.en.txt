@@ -1,0 +1,9 @@
+Evaluating models
+
+Note: AutoML Translation capabilities are offered by both the AutoML API and the Cloud Translation - Advanced API. We recommend that you use the Cloud Translation - Advanced API to create datasets and models because future enhancements apply only to the Cloud Translation - Advanced API. For more information, see Upgrade AutoML resources.
+
+After training a model, AutoML Translation uses items from the TEST set to evaluate the quality and accuracy of the new model. AutoML Translation expresses the model quality using its BLEU (Bilingual Evaluation Understudy) score, which indicates how similar the candidate text is to the reference texts, with values closer to one representing more similar texts.
+
+The BLEU score provides an overall assessment of model quality. You can also evaluate the model output for specific data items by exporting the TEST set with the model predictions. The exported data includes both the reference text (from the original dataset) and the model's candidate text.
+
+Use this data to evaluate your model's readiness. If you're not happy with the quality level, consider adding more (and more diverse) training sentence pairs. One option is to add more sentence pairs. Use the Add Files link in the title bar. Once you've added files, train a new model by clicking the Train New Model button on the Train page. Repeat this process until you reach a high enough quality level.

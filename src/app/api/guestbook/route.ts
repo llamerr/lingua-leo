@@ -3,12 +3,8 @@ import { NextResponse } from 'next/server';
 import { z } from 'zod';
 
 import { db } from '@/libs/DB';
-import { guestbookTable } from '@/models/Schema';
-import {
-  DeleteGuestbookSchema,
-  EditGuestbookSchema,
-  GuestbookSchema,
-} from '@/validations/GuestbookValidation';
+import { guestbookTable } from '@/models/GuestbookSchema';
+import { DeleteGuestbookSchema, EditGuestbookSchema, GuestbookSchema } from '@/validations/GuestbookValidation';
 
 export const POST = async (request: Request) => {
   try {

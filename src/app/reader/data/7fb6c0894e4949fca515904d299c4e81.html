@@ -1,0 +1,2144 @@
+<html>
+<head>
+  <link rel='preconnect' href='https://fonts.gstatic.com'>
+  <link href='https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400&display=swap' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap' rel='stylesheet'>
+  <title>Lingtrain Magic Book</title>
+  <meta charset='UTF-8'>
+  <style type='text/css'>
+
+      .par {
+          font-size: 20px;
+          font-family: 'Noto Serif', serif;
+          padding: 15px 60px;
+          padding: 15px 20px;
+          text-indent: 30px;
+          font-weight: 400;
+      }
+
+      @media print {
+          .par {
+              font-size: 12px;
+              font-family: 'Noto Serif', serif;
+              padding: 15px 10px;
+              text-indent: 30px;
+              font-weight: 400;
+          }
+      }
+
+      h1, h2, h3, h4, h5 {
+          font-family: 'Oswald', cursive;
+      }
+
+      h1 {
+          font-weight: 400;
+      }
+
+      h2 {
+          text-transform: uppercase;
+          font-weight: 400;
+      }
+
+      h3 {
+          font-weight: 400;
+      }
+
+      .cont {
+          margin: 0 150px;
+          # background: #fcfcfc;
+          # border: 1px solid #efefef;
+          # border-radius: 10px;
+          # overflow: hidden;
+      }
+
+      @media print {
+          .cont {
+              margin: 0 0px;
+          }
+      }
+
+      .dt {
+          display: table;
+      }
+
+      .dt-row {
+          display: table-row;
+          position: relative;
+      }
+
+      #
+      .dt-row:nth-child(even):not(.header) {
+          # background: #fefefe;
+          #
+      }
+
+      .dt-row:nth-child(even):not(.header) > .dt-cell:not(.divider) {
+          border-top: 1px solid #f0f0f0;
+          border-bottom: 1px solid #f0f0f0;
+      }
+
+      .dt-row:hover > .dt-cell > .book-par-id {
+          opacity: 1;
+      }
+
+      .book-par-id {
+          position: absolute;
+          left: -20px;
+          top: 0;
+          font-size: 12px;
+          opacity: 0;
+          font-weight: 600;
+      }
+
+      .dt-cell {
+          display: table-cell;
+          width: 50% !important;
+          word-break: break-word;
+      }
+
+      .dt-cell-colspan {
+          display: table-caption;
+      }
+
+      .divider {
+          padding-top: 30px;
+          padding-bottom: 30px;
+          vertical-align: middle;
+          text-align: center;
+      }
+
+      .divider-img {
+          # width: 50px;
+          # height: 50px;
+      }
+
+      .flag-img {
+          height: 50px;
+          width: 50px;
+          padding: 0 10px 0 0;
+      }
+
+      .inline {
+          display: inline-block;
+      }
+
+      .s {
+          padding: 0 6px;
+      }
+
+      .text-center {
+          text-align: center;
+      }
+
+      .lt-quote-text {
+          font-style: italic;
+          text-align: right;
+          font-size: 0.9em;
+      }
+
+      .lt-quote-name {
+          text-align: right;
+          font-size: 0.8em;
+      }
+
+      .lt-image {
+          max-height: 300px;
+          max-width: 800px;
+          -webkit-mask-image: url(https://hsto.org/webt/wg/wv/ai/wgwvai84o5fvgpok4mnannr7jca.png);
+          mask-image: url(https://hsto.org/webt/wg/wv/ai/wgwvai84o5fvgpok4mnannr7jca.png);
+          -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+          -webkit-mask-size: contain;
+          mask-size: contain;
+          -webkit-mask-position: center;
+          mask-position: center;
+          margin: 20px 0;
+      }
+
+      .lt-title {
+          font-size: 52px;
+          text-align: center;
+      }
+
+      .lt-author {
+          margin-top: -10px;
+          font-size: 40px;
+          text-align: center;
+      }
+
+      .title-cell {
+          padding: 20px 20px 0px 20px;
+      }
+
+      .author-cell {
+          padding: 0px 0px 30px 0px;
+      }
+
+      @media print {
+          .lt-title {
+              font-size: 32px;
+          }
+
+          .lt-author {
+              font-size: 28px;
+          }
+
+          .lt-image {
+              max-height: 260px;
+              max-width: 400px;
+          }
+
+          .divider-img {
+              height: 30px;
+              width: 30px;
+          }
+      }
+
+      .lt-footer {
+          padding: 20px 0;
+          margin-top: 30px;
+          text-align: center;
+          font-family: 'Josefin Sans', sans-serif;
+          text-transform: capitalize;
+          color: white;
+          background: cornflowerblue;
+      }
+
+      .lt-header {
+          padding: 20px 0;
+          margin-bottom: 30px;
+          text-align: center;
+          font-family: 'Josefin Sans', sans-serif;
+          text-transform: capitalize;
+          color: white;
+          background: cornflowerblue;
+      }
+
+      .s0 {
+          background: #cfefd7;
+          color: black;
+      }
+
+      .s1 {
+          background: #fadce2;
+          color: black;
+      }
+
+      .s2 {
+          background: #cce7eb;
+          color: black;
+      }
+
+      .s3 {
+          background: #fefbd6;
+          color: black;
+      }
+  </style>
+</head>
+<body>
+<div class='lt-header'>🚀 lingtrain parallel book 🡒 340 sent. [from] • 323 sent. [to] 🡒 131 paragpaphs</div>
+<div class='dt cont'>
+  <div class='dt-row header'>
+    <div class='dt-cell divider'><img class='divider-img'
+                                      src='https://habrastorage.org/webt/28/2n/1b/282n1b8oxclxp-jacqfc3sytbqm.png' />
+    </div>
+    <div class='dt-cell divider'><img class='divider-img'
+                                      src='https://habrastorage.org/webt/28/2n/1b/282n1b8oxclxp-jacqfc3sytbqm.png' />
+    </div>
+  </div>
+  <div class='dt-row header title-cell'>
+    <div class='title-cell dt-cell'></div>
+    <div class='title-cell dt-cell'></div>
+  </div>
+  <div class='dt-row header'>
+    <div class='author-cell dt-cell'></div>
+    <div class='author-cell dt-cell'></div>
+  </div>
+  <div class='dt-row header'>
+    <div class='par dt-cell'><h2>1. Technik</h2></div>
+    <div class='par dt-cell'><h2>Глава 1 Техник</h2></div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>2</div>
+      <span class='s s0'>Andrew Harlan wszedł do kotła.</span>
+      <span class='s s1'>Ściany kotła były doskonale okrągłe i przylegały dokładnie do pionowego szybu, sporządzonego z rzadko rozmieszczonych prętów, które sto osiemdziesiąt centymetrów nad głową Harlana przekształcały się w migotliwą, niewyraźną mgiełkę.</span>
+      <span
+        class='s s2'>Włączył zespół sterowania i poruszył lekko chodzący starter.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>2</div>
+      <span class='s s0'>Техник Эндрю Харлан вошел в капсулу.</span>
+      <span class='s s1'> Капсула находилась внутри колодца, образованного редкими вертикальными прутьями. Прутья плотно облегали круглые стенки капсулы и, уходя вверх, терялись в непроницаемой дымке в шести футах над головой Харлана.</span>
+      <span
+        class='s s2'>Харлан повернул рукоятки управления и плавно нажал на пусковой рычаг.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>3</div>
+      <span class='s s3'>Kocioł ani drgnął.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>3</div>
+      <span class='s s3'>Капсула осталась неподвижной.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>4</div>
+      <span class='s s0'>Harlan bynajmniej nie spodziewał się ruchu ani w górę, ani w dół, w prawo czy w lewo, naprzód czy w tył.</span>
+      <span
+        class='s s1'>Jednak odstępy między prętami stopniały w szarawą czerń, która była twarda w dotyku, jakkolwiek niematerialna.</span>
+      <span
+        class='s s2'>Przy tym czuł lekki niepokój w żołądku i nieznaczny (psychosomatyczny?) zawrót głowy, wskazujący, że wszystko, co kocioł zawiera, łącznie z samym Harlanem, pędzi przez Wieczność.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>4</div>
+      <span class='s s0'>Харлана это не удивило. Капсула не должна была двигаться ни вверх, ни вниз, ни вправо, ни влево, ни вперед, ни назад.</span>
+      <span
+        class='s s1'>Только промежутки между прутьями словно растаяли, затянувшись серой пеленой, которая была твердой, но все-таки нематериальной.</span>
+      <span
+        class='s s2'>Харлан почувствовал легкую дрожь в желудке и слабое головокружение и по этим признакам понял, что капсула со всем своим содержимым стремительно мчится в будущее сквозь Вечность.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>5</div>
+      <span class='s s3'>Wszedł do kotła w 575 Stuleciu — bazowym stuleciu operacji, przydzielonym mu dwa lata wcześniej.</span>
+      <span
+        class='s s0'>Wiek 575 był najodleglejszy ze wszystkich, do których podróżował.</span>
+      <span class='s s1'>A teraz przemieszczał się ku 2456 Stuleciu.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>5</div>
+      <span class='s s3'>Он вошел в капсулу в 575-м Столетии. Этот Сектор Вечности стал его домом два года назад.</span>
+      <span
+        class='s s0'>Никогда до этого ему не приходилось забираться в будущее так далеко.</span>
+      <span class='s s1'>Но сейчас он направляется в 2456-е Столетие.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>6</div>
+      <span class='s s2'>Normalnie czułby się nieco zagubiony w tej sytuacji.</span>
+      <span class='s s3'>Jego ojczyste stulecie leżało w odległej przeszłości — mówiąc dokładnie był to wiek 95.</span>
+      <span
+        class='s s0'>Wiek 95 surowo ograniczający użycie energii atomowej, dość sielankowy, lubujący się w naturalnym drzewie jako materiale konstrukcyjnym, nastawiony na eksport pewnych gatunków destylowanych napojów do wszystkich niemal epok i import nasienia koniczyny.</span>
+      <span
+        class='s s1'>Jakkolwiek Harlan nie był w 95 wieku od czasu, gdy przeszedł specjalne przeszkolenie i jako piętnastoletni chłopiec został Nowicjuszem, to jednak zawsze czuł się nieco zagubiony, gdy oddalał się od "domu".</span>
+      <span
+        class='s s2'>Wiek 2456 będzie okrągłym dwustu czterdziestym tysiącleciem od narodzin Harlana, a jest to szmat czasu, nawet dla zahartowanego Wiecznościowca.</span>
+      <span
+        class='s s3'>W normalnych okolicznościach wszystko by tak wyglądało.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>6</div>
+      <span class='s s2'>Месяц назад при одной только мысли об этом Харлану стало бы не по себе.</span>
+      <span
+        class='s s3'>Его родное 95-е Столетие осталось далеко в прошлом.</span>
+      <span class='s s0'>Это был век патриархальных традиций, в котором атомная энергия находилась под запретом, а всем строительным материалам предпочитали дерево. Век славился своими напитками, которые в обмен на семена клевера вывозились почти во все другие Столетия.</span>
+      <span
+        class='s s1'>Хотя Эндрю Харлан не был дома с тех пор, как он в пятнадцать лет стал Учеником и прошел специальную подготовку, его никогда не оставляла тоска по родным Временам.</span>
+      <span
+        class='s s2'>Между 95-м и 2456-м Столетиями пролегло почти двести сорок тысяч лет, а это ощутимый промежуток даже для закаленного Вечного.</span>
+      <span
+        class='s s3'>При обычных обстоятельствах все было бы именно так.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>7</div>
+      <span class='s s0'>Lecz teraz Harlan był w zbyt kiepskim nastroju, by myśleć o czymkolwiek, poza tym, że dokumenty ciążą mu w kieszeni, a cały plan działania ciężko leży na sercu.</span>
+      <span
+        class='s s1'>Był nieco przestraszony, trochę podniecony i zmieszany.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>7</div>
+      <span class='s s0'>Однако сейчас Харлану было не до абстрактных размышлений.</span>
+      <span class='s s1'>Рулоны перфолент оттягивали его карманы, планы тяжким грузом лежали на сердце, мысли были скованы страхом и неуверенностью.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>8</div>
+      <span class='s s2'>Jego ręce odruchowo zatrzymały kocioł na właściwym przystanku we właściwym stuleciu.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>8</div>
+      <span class='s s2'>Он машинально остановил капсулу в нужном Столетии.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>9</div>
+      <span class='s s3'>Dziwne, że Technik mógł czuć się podniecony czy zdenerwowany czymkolwiek.</span>
+      <span
+        class='s s0'>Co to kiedyś mówił Edukator Yarrow?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>9</div>
+      <span class='s s3'>Странно, что Техник способен волноваться.</span>
+      <span class='s s0'>Харлан вспомнил сухой голос Наставника Ярроу:</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>10</div>
+      <span class='s s1'>"Technik musi być przede wszystkim beznamiętny.</span>
+      <span class='s s2'>Zmiana Rzeczywistości, jakiej dokonuje, może wpływać na życie nawet pięćdziesięciu miliardów ludzi.</span>
+      <span
+        class='s s3'>Dla miliona czy więcej spośród nich efekty będą tak drastyczne, że trzeba ich uważać za całkowicie nowe jednostki. W tych warunkach emocjonalne podejście do sprawy stanowi poważną przeszkodę".</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>10</div>
+      <span class='s s1'>– Первая заповедь Техника – ничего не принимать близко к сердцу.</span>
+      <span
+        class='s s2'>Совершаемое им Изменение Реальности может отразиться на судьбах пятидесяти миллиардов человек.</span>
+      <span
+        class='s s3'>Миллион или более могут измениться настолько, что их придется рассматривать как совершенно новые личности.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>11</div>
+      <span class='s s0'>Harlan gwałtownym potrząśnięciem głowy wyrzucił ze swego umysłu wspomnienie suchego głosu nauczyciela.</span>
+      <span
+        class='s s1'>W tamtych czasach nawet sobie nie wyobrażał, że zostanie właśnie Technikiem.</span>
+      <span
+        class='s s2'>Ale emocje zaczął przeżywać mimo wszystko.</span>
+      <span class='s s3'>Nie z racji pięćdziesięciu miliardów ludzi.</span>
+      <span
+        class='s s0'>Kto w Czasie troszczy się o pięćdziesiąt miliardów ludzi?</span>
+      <span class='s s1'>Chodzi tylko o jednego.</span>
+      <span
+        class='s s2'>O jedną osobę.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>11</div>
+      <span class='s s0'>Пытаясь отделаться от воспоминаний, Харлан резко тряхнул головой.</span>
+      <span class='s s1'>Кто бы мог подумать тогда, что именно он, Харлан, станет Техником и к тому же одним из самых талантливых.</span>
+      <span
+        class='s s2'>И все-таки он волновался.</span>
+      <span
+        class='s s3'>Но не за судьбу пятидесяти миллиардов человек.</span>
+      <span class='s s0'>Что ему пятьдесят миллиардов обитателей Времени?</span>
+      <span
+        class='s s1'>Только один человек существовал для него во всех Столетиях.</span>
+      <span class='s s2'>Один-единственный.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>12</div>
+      <span class='s s3'>Uświadomił sobie, że kocioł stoi, w króciutkiej przerwie, dla zebrania myśli, wprawił się w ten chłodny, rzeczowy nastrój, jaki musi cechować Technika.</span>
+      <span
+        class='s s0'>Potem wysiadł.</span>
+      <span class='s s1'>Kocioł, który opuścił, nie był oczywiście tym samym, do którego wsiadł — w tym sensie, że nie składał się z tych samych atomów.</span>
+      <span
+        class='s s2'>Nie troszczył się o to bardziej niż inni Wiecznościowcy.</span>
+      <span class='s s3'>Tylko Nowicjusze i nowi przybysze do Wieczności interesowali się bardziej mistyką podróży w Czasie niż samym jej faktem.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>12</div>
+      <span class='s s3'>Харлан заметил, что капсула остановилась, однако, прежде чем выйти наружу, он задержался на какую-то долю секунды, чтобы собраться с мыслями и вновь обрести бесстрастное, невозмутимое расположение духа.</span>
+      <span
+        class='s s0'>Капсула, которую он покинул, разумеется, не была той же самой, в которую он вошел: она уже не состояла из тех же атомов.</span>
+      <span
+        class='s s1'>Харлан воспринимал это обстоятельство как нечто само собою разумеющееся.</span>
+      <span class='s s2'>Только Ученики ломают себе голову над загадками путешествий во Времени.</span>
+      <span
+        class='s s3'>Вечные заняты более важными делами.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>14</div>
+      <span class='s s0'>Znowu zrobił krótką przerwę przy nieskończenie cienkiej kurtynie z Nie-Przestrzeni i Nie-Czasu, która z jednej strony oddzielała go od Wieczności, a z drugiej — od zwykłego Czasu.Znalazł się w całkiem dla siebie nowej sekcji Wieczności.</span>
+      <span
+        class='s s1'>Oczywiście cokolwiek z grubsza o niej wiedział, przejrzawszy odpowiedni rozdział Podręcznika Czasu.</span>
+      <span
+        class='s s2'>Jednak nie mogło to zastąpić osobistych odwiedzin, więc przygotował się na początkowy szok adaptacji.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>14</div>
+      <span class='s s0'>Харлан снова ненадолго задержался у бесконечно тонкой завесы Темпорального поля, которое не было ни Временем, ни Пространством, но которое сейчас отделяло его как от Вечности, так и от обычного Времени. По ту сторону завесы лежал совершенно неизвестный ему Сектор Вечности.</span>
+      <span
+        class='s s1'>Он, конечно, заглянул перед отъездом в Справочник Времен и кое-что о нем узнал.</span>
+      <span
+        class='s s2'>Но Справочник – это одно, а личное впечатление – совсем другое. Харлан внутренне приготовился к любым неожиданностям.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>15</div>
+      <span class='s s3'>Odpowiednio nastawił zespół sterowania (prosta sprawa przy wkraczaniu do Wieczności, natomiast bardzo skomplikowana w przej ściu do Czasu, lecz ten typ podróży zdarzał się rzadziej).</span>
+      <span
+        class='s s0'>Przekroczył kurtynę i przymrużył oczy od blasku. Odruchowo podniósł rękę, by je osłonić.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>15</div>
+      <span class='s s3'>Он настроил управление на выход в Вечность (это было совсем просто, куда проще, чем выйти во Время) и шагнул вперед.</span>
+      <span
+        class='s s0'>Оказавшись по ту сторону завесы Темпорального поля, он зажмурил глаза от ослепительно яркого блеска и инстинктивно прикрыл их руками.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>16</div>
+      <span class='s s1'>Naprzeciw niego stał tylko jeden człowiek.</span>
+      <span class='s s2'>Z początku Harlan widział go bardzo niewyraźnie.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>16</div>
+      <span class='s s1'>Перед ним стоял только один человек.</span>
+      <span class='s s2'>Вначале Харлан едва различал черты его лица.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>17</div>
+      <span class='s s3'>Człowiek odezwał się: — Jestem Socjolog.</span>
+      <span class='s s0'>Kantor Voy. Pan jest pewnie Technikiem Marianem?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>17</div>
+      <span class='s s3'>– Я Социолог Кантор Вой, – сказал человек.</span>
+      <span class='s s0'>– Полагаю, что вы и есть Техник Харлан?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>18</div>
+      <span class='s s1'>Harlan skinął głową i powiedział:</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>18</div>
+      <span class='s s1'>Харлан кивнул.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>19</div>
+      <span class='s s2'>— Ojcze Czasie!</span>
+      <span class='s s3'>Czy tę iluminację można trochę przygasić?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>19</div>
+      <span class='s s2'>– Разрази меня Время! – воскликнул он.</span>
+      <span class='s s3'>– Неужели вы никогда не выключаете эту иллюминацию?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>20</div>
+      <span
+        class='s s0'>Voy obejrzał się, a potem powiedział wyrozumiale: — Myśli pan o emulsjach cząsteczkowych?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>20</div>
+      <span class='s s0'>– Вы имеете в виду молекулярные пленки? – снисходительно спросил Вой, оглядевшись.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>21</div>
+      <span class='s s1'>— Oczywiście — odparł Harlan.</span>
+      <span class='s s2'>— Podręcznik wspominał o nich, ale nie mówił o tak szaleńczych refleksach świetlnych.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>21</div>
+      <span class='s s1'>– Вот именно! – раздраженно буркнул Харлан.</span>
+      <span class='s s2'>Справочник упоминал о них, но Харлан никогда не подозревал, что блеск световых отражений может быть таким неистовым.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>22</div>
+      <span class='s s3'>Harlan uważał swe oburzenie za dość uzasadnione.</span>
+      <span class='s s0'>2456 Stulecie orientowało się na materię, podobnie jak większość stuleci, więc od samego początku miał prawo oczekiwać, że wszystko będzie dość podobne.</span>
+      <span
+        class='s s1'>Nie spodziewał się tu straszliwego chaosu (straszliwego dla kogoś, kto urodził się w epoce zorientowanej na materię) wirów energii trzechsetnych stuleci ani dynamiki pola sześćsetnych wieków.</span>
+      <span
+        class='s s2'>W wieku 2456 dla wygody przeciętnego Wiecznościowca materii używano do wszystkiego — od ścian do gwoździ tapicerskich.</span>
+      <span
+        class='s s3'>Nawiasem mówiąc, jest materia i materia.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>22</div>
+      <span class='s s3'>Харлан понимал причину своего раздражения.</span>
+      <span class='s s0'>Если не считать нескольких энергетических Столетий, цивилизация во все Времена основывалась на использовании вещества.</span>
+      <span
+        class='s s1'>В 2456-м Столетии из вещества изготовлялось все, начиная со стен и кончая гвоздями.</span>
+      <span
+        class='s s2'>Поэтому Харлан с самого начала рассчитывал хотя бы на принципиальное сходство со знакомым ему миром.</span>
+      <span
+        class='s s3'>Здесь можно было не опасаться встретить ни совершенно непонятные (для человека, родившегося в вещественном веке) энергетические вихри, заменяющие вещество в 300-м, ни силовые поля 600-го.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>23</div>
+      <span class='s s0'>Obywatel zorientowanego na energię stulecia może sobie tego nie uświadamiać.</span>
+      <span
+        class='s s1'>Dla niego wszelka materia może wyglądać jak drobne odmiany czegoś grubego, ciężkiego, barbarzyńskiego.</span>
+      <span
+        class='s s2'>Jednak nastawiony na materię Harlan rozróżniał drzewo, metale (ciężkie i lekkie), plastik, krzem, wapno, skórę i tak dalej.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>23</div>
+      <span class='s s0'>Конечно, вещество веществу рознь, хотя человек из энергетического Столетия мог бы не согласиться с этим утверждением.</span>
+      <span
+        class='s s1'>Для него всякое вещество было чем-то грубым, громоздким и варварским.</span>
+      <span class='s s2'>Но Харлан родился в вещественном веке и воспринимал вещество как дерево, металл (легкий или тяжелый), бетон, пластмассу, кожу и т. п.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>24</div>
+      <span class='s s3'>Lecz materia składająca się wyłącznie z luster!</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>24</div>
+      <span class='s s3'>Но попасть в мир, состоящий из одних зеркал!</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>25</div>
+      <span class='s s0'>To było pierwsze wrażenie z 2456 Stulecia.</span>
+      <span class='s s1'>Każda powierzchnia odbijała światło i błyszczała.</span>
+      <span
+        class='s s2'>Wszędzie była iluzja absolutnej gładkości: efekt emulsji cząsteczkowej.</span>
+      <span class='s s3'>W tych nie kończących się odbiciach samego Harlana i Socjologa Voya, wszystkiego, co tylko mógł zobaczyć w ułamkach i całościach, pod wszystkimi kątami, był chaos.</span>
+      <span
+        class='s s0'>Jaskrawy chaos, wywołujący obrzydzenie.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>25</div>
+      <span class='s s0'>Именно таким было его первое впечатление от 2456-го.</span>
+      <span class='s s1'>Каждая поверхность сверкала, отражая свет.</span>
+      <span
+        class='s s2'>Эффект молекулярных пленок создавал везде впечатление зеркальной глади.</span>
+      <span class='s s3'>Куда ни глянь, всюду были видны отражения Социолога Воя, его самого и всего, что находилось вокруг.</span>
+      <span
+        class='s s0'>От яркого блеска и путаницы красок просто мутило.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>26</div>
+      <span class='s s1'>— Bardzo mi przykro — powiedział Voy. — To obyczaj Stulecia, a odpowiednia sekcja uważa, że należy przyjmować miejscowe obyczaje, jeśli są praktyczne.</span>
+      <span
+        class='s s2'>Przyzwyczai się pan do tego po pewnym czasie.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>26</div>
+      <span class='s s1'>– Сожалею, – сказал Вой, – но таков уж обычай Столетия, а мы в нашем Секторе стараемся по возможности перенимать все, что практично.</span>
+      <span
+        class='s s2'>Потерпите немного, и вы привыкнете.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>27</div>
+      <span class='s s3'>Voy ruszył gwałtownie po stopach innego Voya, odwróconego głową w dół pod posadzką, który wraz z nim podszedł do stołu. Przesunął do punktu zerowego cienką jak włos wskazówkę na spiralnej skali.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>27</div>
+      <span class='s s3'>Вой быстро подошел к стене, наступая на пятки своему отражению, которое шагало вниз головой, в точности повторяя каждое движение Социолога, и передвинул волосок индикатора по спиральной шкале к нулю.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>28</div>
+      <span class='s s0'>Odbicia znikły, jaskrawe światło zbladło.</span>
+      <span class='s s1'>Harlan poczuł, jakjego świat się zestala.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>28</div>
+      <span class='s s0'>Отражения исчезли, яркие огни потускнели.</span>
+      <span class='s s1'>Харлан почувствовал себя в более привычной обстановке.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>29</div>
+      <span class='s s2'>— Proszą teraz za mną — rzekł Voy.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>29</div>
+      <span class='s s2'>– Не пройдете ли вы теперь со мной? – пригласил Социолог.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>30</div>
+      <span class='s s3'>Harlan poszedł za nim przez puste korytarze, które przed paroma chwilami musiały jarzyć się orgią sztucznego światła i refleksów, po pochylni i przez przedpokój do gabinetu.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>30</div>
+      <span class='s s3'>Харлан последовал за ним сквозь пустые коридоры, в которых всего несколько мгновений назад царил хаос радужных огней и бесчисленных отражений. Они поднялись по пандусу вверх и прошли через переднюю в кабинет Воя.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>31</div>
+      <span class='s s0'>Na tej krótkiej drodze nie spotkali nikogo.</span>
+      <span class='s s1'>Harlan tak był do tego przyzwyczajony, że z pewnością zaskoczyłoby go i niemal wywołało wstrząs, gdyby ujrzał oddalającą się szybko postać ludzką.</span>
+      <span
+        class='s s2'>Bez wątpienia rozeszły się już wieści, że przybywa Technik.</span>
+      <span class='s s3'>Nawet Voy trzymał się na dystans, a gdy przypadkowo dłoń Harlana otarła się o jego rękaw, Socjolog drgnął i cofnął się.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>31</div>
+      <span class='s s0'>На всем пути им не встретилось ни одной живой души.</span>
+      <span class='s s1'>Можно было не сомневаться, что весть о прибытии Техника уже разнеслась по всему Сектору. Харлан настолько привык к тому особому положению, которое занимали в Вечности люди его профессии, что воспринимал безлюдные коридоры как должное.</span>
+      <span
+        class='s s2'>Он удивился бы, заметив спешащую скрыться человеческую фигуру.</span>
+      <span class='s s3'>Даже Вой пытался держаться на известном расстоянии и поспешно отшатнулся, когда Харлан случайно задел ладонью его рукав.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>32</div>
+      <span class='s s0'>Harlana nieco zaskoczyła odrobina goryczy, jakiej przy tym wszystkim doznawał.</span>
+      <span
+        class='s s1'>Myślał, że muszla, która wyrosła wokół jego duszy, jest grubsza, bardziej nieprzenikliwa.</span>
+      <span
+        class='s s2'>Jeśli się mylił, jeśli ten pancerz stał się cieńszy, przyczyna mogła być tylko jedna: Noys!</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>32</div>
+      <span class='s s0'>Чувство горечи, испытанное при этом Харланом, неприятно удивило его.</span>
+      <span
+        class='s s1'>Он полагал, что его душа, как улитка в раковине, давно уже неуязвима для подобных уколов.</span>
+      <span
+        class='s s2'>Но если стенки его раковины стали тоньше, то этому могла быть только одна причина: Нойс.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>33</div>
+      <span class='s s3'>Socjolog Kantor Voy pochylił się ku Technikowi niby w dość przyjacielski sposób, lecz Harlan zauważył, że siedzą po przeciwnych końcach podłużnej osi dość dużego stołu.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>33</div>
+      <span class='s s3'>Со стороны могло показаться, что Социолог дружелюбно наклонился к Технику, но Харлан машинально отметил, что их разделяет довольно длинный стол.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>34</div>
+      <span
+        class='s s0'>Voy powiedział: — Cieszę się, że tak słynny Technik interesuje się naszym drobnym problemem.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>34</div>
+      <span class='s s0'>– Я польщен, – начал Вой, – что такой знаменитый Техник, как вы, заинтересовался нашей маленькой проблемой.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>35</div>
+      <span class='s s1'>— Tak — odparł Harlan z chłodną obojętnością, jakiej ludzie po nim oczekiwali.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>35</div>
+      <span class='s s1'>– Да, она представляет определенный теоретический интерес.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>36</div>
+      <span class='s s2'>— Ten problem ma swoje interesujące aspekty.</span>
+      <span
+        class='s s3'>(Czy był dość obojętny?</span>
+      <span class='s s0'>Z pewnościąjego prawdziwe motywy muszą być widoczne, a wina ujawnia się w kropelkach potu na czole).</span>
+      <span
+        class='s s1'>Wydobył z wewnętrznej kieszeni arkusik folii z sumarycznym projektem Zmiany Rzeczywistości.</span>
+      <span
+        class='s s2'>Była to ta sama kopia, którą miesiąc wcześniej wysłano do Rady Wszechczasów.</span>
+      <span
+        class='s s3'>Dzięki swym kontaktom ze Starszym Kalkulatorem Twissellem (samym Twissellem!)</span>
+      <span
+        class='s s0'>Harlan nie miał wiele kłopotu z uzyskaniem tego egzemplarza.</span>
+      <span class='s s1'>Przed rozwinięciem rolki upuścił ją na powierzchnię stołu, gdzie została zatrzymana przez słabe pole paramagnetyczne, i zamyślił się na chwilę.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>36</div>
+      <span class='s s2'>Харлан ответил сухо и бесстрастно, как и следовало говорить Технику.</span>
+      <span class='s s3'>(Но был ли его голос действительно бесстрастен?</span>
+      <span
+        class='s s0'>Не проглядывают ли наружу его истинные побуждения? Не бросается ли в глаза его вина, написанная на лбу холодными каплями пота?)</span>
+      <span
+        class='s s1'>Харлан вытащил из внутреннего кармана небольшой рулончик перфолент с кратким закодированным описанием планируемого Изменения Реальности.</span>
+      <span
+        class='s s2'>(Это был тот самый экземпляр, который Вой месяц назад послал на рассмотрение Совета Времен.</span>
+      <span
+        class='s s3'>Благодаря своей близости к Старшему Вычислителю Твисселу – к великому Твисселу!</span>
+      <span
+        class='s s0'>– Харлану удалось заполучить проект без большого труда.)</span>
+      <span class='s s1'>Но перед тем как расстелить ленту на поверхности стола, где ее будет удерживать слабое парамагнитное поле, Харлан на мгновенье замешкался.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>37</div>
+      <span class='s s2'>Pokrywająca stół emulsja cząsteczkowa była przygaszona, ale nie ciemna.</span>
+      <span
+        class='s s3'>Ruch własnej ręki przyciągnął na chwilę jego wzrok, odbicie twarzy zdawało się patrzeć na niego ponuro z blatu stołu.</span>
+      <span
+        class='s s0'>Miał trzydzieści dwa lata, lecz wyglądał starzej. Wiedział o tym.</span>
+      <span class='s s1'>Może to właśnie jego długa twarz i czarne brwi nad czarnymi oczyma powodowały po części, że miał ów marsowy wygląd i chłodne nieruchome spojrzenie, typowe dla karykaturalnego obrazu Technika w wyobrażeniach Wiecznościowców.</span>
+      <span
+        class='s s2'>A może powodował to fakt, że Harlan stale pamiętał o tym, iż jest Technikiem.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>37</div>
+      <span class='s s2'>Молекулярная пленка, покрывающая стол, была «притушена», но полностью не исчезла.</span>
+      <span
+        class='s s3'>Протянув руку, Харлан невольно взглянул на крышку стола, откуда на него мрачно глядело собственное лицо.</span>
+      <span
+        class='s s0'>Ему было тридцать два года, но он выглядел старше и сам это хорошо понимал.</span>
+      <span class='s s1'>Возможно, его старило узкое лицо, которому темные брови над черными глазами придавали суровый, насупленный вид (типичный, по мнению Вечных, для Техника).</span>
+      <span
+        class='s s2'>А возможно, причина была в том, что сам Харлан ни на минуту не забывал о своей профессии.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>38</div>
+      <span class='s s3'>Rozpostarł folię na stole i wrócił do sprawy.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>38</div>
+      <span class='s s3'>Развернув рулон, Харлан решительно приступил к делу.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>39</div>
+      <span class='s s0'>— Nie jestem Socjologiem — rzekł.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>39</div>
+      <span class='s s0'>– Я не Социолог, сэр.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>40</div>
+      <span class='s s1'>Voy uśmiechnął się. — To brzmi wspaniale. Gdy ktoś zaczyna mówić o braku kompetencji w danej dziedzinie, zazwyczaj zaraz potem występuje z jakąś stanowczą opinią.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>40</div>
+      <span class='s s1'>– Устрашающее начало, – усмехнулся Вой, – такое вступление обычно предвещает, что за ним вот-вот последует самое банальное суждение по данному вопросу.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>41</div>
+      <span class='s s2'>— Nie — powiedział Harlan. — To nie opinia. Tylko prośba.</span>
+      <span class='s s3'>Chciałbym, żeby pan rzucił okiem na to podsumowanie i sprawdził, czy gdzieś tu nie ma drobnej pomyłki.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>41</div>
+      <span class='s s2'>– О нет, не суждение – скорее просьба.</span>
+      <span
+        class='s s3'>Будьте так добры: просмотрите еще раз ваше заключение и поищите, нет ли в нем небольшой ошибки.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>42</div>
+      <span class='s s0'>Voy natychmiast spoważniał.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>42</div>
+      <span class='s s0'>Лицо Воя сразу же помрачнело.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>43</div>
+      <span class='s s1'>— Mam nadzieję, że nie — powiedział.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>43</div>
+      <span class='s s1'>– Надеюсь, что нет.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>44</div>
+      <span class='s s2'>Harlan trzymał jedną rękę na oparciu fotela, drugą na kolanach.</span>
+      <span class='s s3'>Musiał uważać, żeby nie bębnić palcami. Ani nie zagryzać ust.</span>
+      <span
+        class='s s0'>Nie mógł w żadnym wypadku wyjawiać swych uczuć.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>44</div>
+      <span class='s s2'>Одна рука Харлана лежала на спинке стула, другая – на коленях.</span>
+      <span
+        class='s s3'>Он не мог позволить себе забарабанить по столу беспокойными пальцами, он не мог закусить губу.</span>
+      <span
+        class='s s0'>Малейшее проявление чувств – и все погибло.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>45</div>
+      <span class='s s1'>Od czasu gdy cała orientacja jego życia się zmieniła, studiował konspekty projektowanych Zmian Rzeczywistości, które napływały poprzez pracujący na wysokich obrotach młyn administracyjny do Rady Wszechczasów.</span>
+      <span
+        class='s s2'>Jako przyboczny Technik Starszego Kalkulatora Twissella potrafił to zorganizować, lekko tylko naginając zasady zawodowej etyki.</span>
+      <span
+        class='s s3'>Szczególnie że Twissell coraz więcej uwagi poświęcał swemu gigantycznemu przedsięwzięciu.</span>
+      <span
+        class='s s0'>(Harlan gorączkował się.</span>
+      <span class='s s1'>Teraz wiedział coś niecoś o naturze tego przedsięwzięcia).</span>
+      <span
+        class='s s2'>Nie miał pewności, że we właściwym czasie znajdzie to, czego szukał.</span>
+      <span class='s s3'>Gdy pierwszy raz rzucił okiem na projekt Zmiany Rzeczywistości 2456-2781, numer seryjny V-5, był prawie przekonany, że pragnienia zmąciły mu umysł.</span>
+      <span
+        class='s s0'>Przez cały dzień sprawdzał równania i związki w przygniatającej niepewności, zmieszanej ze wzrastającym podnieceniem i gorzką satysfakcją, że nauczył się przynajmniej podstaw psychomatematyki.</span>
+      <span
+        class='s s1'>Teraz Voy przeglądał te same perforowane wzory na pół zdumionym, na pół gniewnym wzrokiem.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>45</div>
+      <span class='s s1'>Целый месяц Харлан регулярно просматривал все новые проекты Изменений Реальности по мере того, как они перемалывались административными жерновами Совета Времен.</span>
+      <span
+        class='s s2'>Для личного Техника Старшего Вычислителя Твиссела это не представляло особых трудностей, если только не считаться с небольшим нарушением профессиональной этики.</span>
+      <span
+        class='s s3'>В последние дни, когда все внимание Твиссела полностью поглотил его собственный проект, рыться в его бумагах стало совсем безопасно.</span>
+      <span
+        class='s s0'>(У Харлана слегка раздулись ноздри.</span>
+      <span class='s s1'>Теперь-то он кое-что знал об этом проекте.)</span>
+      <span
+        class='s s2'>Но в распоряжении Харлана оставалось так мало времени, что его могла спасти только невероятная удача.</span>
+      <span
+        class='s s3'>Поэтому, наткнувшись на проект Изменения Реальности с 2456-го по 2871-е Столетие, серийный номер В-5, он в первый момент подумал, что напряжение помутило его рассудок и он принимает желаемое за действительное.</span>
+      <span
+        class='s s0'>Не доверяя самому себе, он весь день проверял уравнения и зависимости, и чем дальше, тем сильнее становилось его возбуждение.</span>
+      <span
+        class='s s1'>С чувством благодарности, к которой примешивалась слабая горечь, он вспоминал своих Наставников, обучивших его хотя бы элементарной психоматематике.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>46</div>
+      <span class='s s2'>Powiedział:</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>46</div>
+      <span class='s s2'>Сейчас Вой недоуменными и озабоченными глазами просматривал ту же самую перфоленту.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>47</div>
+      <span class='s s3'>— Wydaje mi się, powiadam: wydaje mi się, że wszystko jest w najlepszym porządku. Harlan powiedział:</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>47</div>
+      <span class='s s3'>– Может быть, я и ошибаюсь, – произнес он наконец, – но мне лично кажется, что все в полном порядке.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>48</div>
+      <span class='s s0'>— Polecam panu szczególnie sprawę charakterystyki okresu narzeczeństwa w bieżącej Rzeczywistości tegoż stulecia.</span>
+      <span
+        class='s s1'>To należy do socjologii i za to chyba pan odpowiada. Dlatego też chciałem się spotkać raczej z panem niż z kimkolwiek innym.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>48</div>
+      <span class='s s0'>– Тогда я позволю себе обратить ваше внимание на психоматрицы любовных отношений, характерные для Реальности вашего Столетия.</span>
+      <span
+        class='s s1'>Это область Социологии – вот почему я решил в первую очередь встретиться именно с вами.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>49</div>
+      <span class='s s2'>Voy zmarszczył czoło.</span>
+      <span
+        class='s s3'>Nadal był grzeczny, lecz chłodny. Powiedział:</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>49</div>
+      <span class='s s2'>Вой нахмурился.</span>
+      <span class='s s3'>Он все еще был вежлив, но в его голосе явственно послышался холодок.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>50</div>
+      <span class='s s0'>— Obserwatorzy przydzieleni do naszej sekcji są wysoce kompetentni.</span>
+      <span class='s s1'>Mam absolutną pewność, że ci, których wyznaczono do tego projektu, dostarczyli dokładnych danych.</span>
+      <span
+        class='s s2'>Ma pan powody sądzić, że było inaczej?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>50</div>
+      <span class='s s0'>– Наблюдатели нашего Сектора очень опытны.</span>
+      <span class='s s1'>Я совершенно уверен в правильности их донесений.</span>
+      <span
+        class='s s2'>Может быть, вы располагаете другими сведениями.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>51</div>
+      <span class='s s3'>— Bynajmniej, Socjologu.</span>
+      <span class='s s0'>Przyjmuję ich materiały. Kwestionuję natomiast opracowanie materiałów.</span>
+      <span
+        class='s s1'>Czy nie można znaleźć alternatywnego rozgałęzienia w tym punkcie, jeśli weźmie się właściwie pod rozwagę dane o narzeczonych?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>51</div>
+      <span class='s s3'>– Отнюдь нет, Социолог Вой.</span>
+      <span class='s s0'>Я основываюсь на ваших же данных и ставлю под сомнение только выводы.</span>
+      <span
+        class='s s1'>Взгляните вот сюда: не будет ли комплекс-тензор в этой точке переменным, если подставить точные значения психоматриц?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>52</div>
+      <span class='s s2'>Voy spojrzał, a potem odetchnął z ulgą.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>52</div>
+      <span class='s s2'>Вой с явным облегчением взглянул на перфоленту.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>53</div>
+      <span
+        class='s s3'>— Oczywiście, Techniku, oczywiście, lecz to rozgałęzienie przekształca się w tożsamość.</span>
+      <span
+        class='s s0'>To pętla małych rozmiarów bez żadnych świadczeń z którejkolwiek strony.</span>
+      <span
+        class='s s1'>Sądzę, że wybaczy mi pan ten malowniczy język zamiast precyzyjnych wyrażeń matematycznych.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>53</div>
+      <span class='s s3'>– Разумеется, Техник, разумеется, но вы не заметили, что уравнение в этой точке вырождается в тождество.</span>
+      <span
+        class='s s0'>В итоге получается небольшая вилка без побочных ответвлений, а дальше дороги снова сливаются.</span>
+      <span
+        class='s s1'>Надеюсь, вы мне простите употребление этих цветистых сравнений вместо точного математического языка.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>54</div>
+      <span
+        class='s s2'>— Lubię go — powiedział Harlan sucho. — Nie jestem bardziej Kalkulatorem niż Socjologiem.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>54</div>
+      <span
+        class='s s2'>– Ценю вашу любезность, – сухо сказал Харлан, – из меня такой же Вычислитель, как и Социолог.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>55</div>
+      <span class='s s3'>— Doskonale.</span>
+      <span class='s s0'>Alternatywne rozgałęzienie, o którym pan mówi, albo rozwidlenie drogi, jak byśmy powiedzieli, jest nieznaczne.</span>
+      <span
+        class='s s1'>Oba ramiona się łączą i powstaje znowu jedna droga.</span>
+      <span class='s s2'>Nie ma nawet potrzeby o tym wspominać w naszych zaleceniach.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>55</div>
+      <span class='s s3'>– Ну что ж, отлично.</span>
+      <span class='s s0'>Переменный комплекс-тензор, о котором вы говорили (или же попросту вилка), не играет никакой роли.</span>
+      <span
+        class='s s1'>Пути смыкаются, и решение вновь становится единственным.</span>
+      <span class='s s2'>Это такой пустяк, что не стоило даже упоминать о нем в наших рекомендациях.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>56</div>
+      <span class='s s3'>— Skoro pan tak twierdzi, to przyjmuję, że pan ma rację.</span>
+      <span class='s s0'>Jednak nadal pozostaje kwestia MPZ.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>56</div>
+      <span class='s s3'>– Раз вы так считаете, сэр, то мне остается только согласиться с вами.</span>
+      <span
+        class='s s0'>Теперь перейдем к выбору МНВ.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>57</div>
+      <span class='s s1'>Socjolog jęknął przy tych inicjałach, ale Harlan spodziewał się tego.</span>
+      <span class='s s2'>MPZ — Minimum Potrzebnych Zmian. Tutaj Technik był mistrzem.</span>
+      <span
+        class='s s3'>Socjolog mógł się uważać za niedostępnego dla krytyki niższych istot we wszystkim, co dotyczyło matematycznej analizy nieskończenie możliwych Rzeczywistości w Czasie, ale w sprawach MPZ Technik stał wyżej.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>57</div>
+      <span class='s s1'>Харлан заранее знал, что при этих словах Социолог поморщится.</span>
+      <span class='s s2'>МНВ означало Минимальное необходимое воздействие, и в этом вопросе решающее слово всегда оставалось за Техником.</span>
+      <span
+        class='s s3'>Пока Социолог занимался математическим анализом бесчисленных возможных Реальностей, он мог считать себя выше критики со стороны существ низшего порядка, но как только дело доходило до выбора МНВ, хозяином положения становился Техник.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>58</div>
+      <span class='s s0'>Mechaniczne komputowanie nie wystarczy.</span>
+      <span class='s s1'>Największy komputaplex, jaki kiedykolwiek zbudowano, obsługiwany przez najmądrzejszego i najbardziej doświadczonego Starszego Kalkulatora, potrafi najwyżej wskazać granice, w których można ustalić MPZ.</span>
+      <span
+        class='s s2'>Dopiero Technik, przeglądając dane, wybierał określony punkt w tym zakresie.</span>
+      <span
+        class='s s3'>Dobry Technik rzadko się mylił, Technik wybitny nie mylił się nigdy.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>58</div>
+      <span
+        class='s s0'>Решить эту проблему при помощи одних только математических вычислений было невозможно.</span>
+      <span
+        class='s s1'>Даже самый большой и быстродействующий Кибермозг, управляемый самым умным и опытным Старшим Вычислителем, в лучшем случае мог только указать область вероятных поисков МНВ.</span>
+      <span
+        class='s s2'>Правильный выбор всецело зависел от интуиции и опыта Техника.</span>
+      <span class='s s3'>Хороший Техник ошибался крайне редко. Первоклассный Техник не ошибался никогда.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>59</div>
+      <span class='s s0'>Harlan nie mylił się nigdy.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>59</div>
+      <span class='s s0'>Харлан никогда не ошибался.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>60</div>
+      <span class='s s1'>— Tymczasem zalecane przez waszą sekcję MPZ — odezwał się Harlan — (mówił chłodno, obojętnie, precyzyjnie wymawiając zgłoski standardowego języka międzyczasowego) — łączy się ze spowodowaniem wypadku w przestrzeni kosmicznej i gwałtowną, okrutną śmiercią dziesięciu czy więcej ludzi.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>60</div>
+      <span class='s s1'>– МНВ, рекомендованное вашим Сектором, – продолжал Харлан ровным, бесстрастным голосом, словно чеканя звуки Единого межвременного языка, – предусматривает аварию космического корабля и мучительную смерть двенадцати человек.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>61</div>
+      <span class='s s2'>— Nieuniknione — powiedział Voy wzruszając ramionami.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>61</div>
+      <span class='s s2'>– К сожалению, это неизбежно, – сказал Вой, пожимая плечами.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>62</div>
+      <span class='s s3'>— Ze swej strony — odparł Harlan — uważam, że MPZ można zredukować do zwykłego przeniesienia zasobnika z jednej półki na drugą.</span>
+      <span
+        class='s s0'>Proszę!</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>62</div>
+      <span class='s s3'>– Я же, напротив, полагаю, что МНВ может быть сведено к простому перемещению небольшого ящика с одной полки на другую.</span>
+      <span
+        class='s s0'>Взгляните вот сюда.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>63</div>
+      <span class='s s1'>— Wskazał palcem, podkreślając wypielęgnowanym paznokciem malutki znaczek obok kolumny perforacji.</span>
+      <span
+        class='s s2'>Voy w milczeniu rozmyślał nad wzorami.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>63</div>
+      <span class='s s1'>Харлан указательным пальцем сделал слабую отметку вдоль одной из серий перфораций.</span>
+      <span
+        class='s s2'>Вой молчал, напряженно размышляя.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>64</div>
+      <span class='s s3'>Harlan powiedział: — Czy to nie zmienia sytuacji pańskiego nieprzewidzianego rozwidlenia? Czy nie zmienia widełek mniejszego prawdopodobieństwa niemal w pewność i nie prowadzi do… — Do MPO — szepnął Voy.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>64</div>
+      <span class='s s3'>– Это решение обладает тем преимуществом, что оно устраняет просмотренную вами вилку и приводит нас… – …к вероятной МОР, – тихо подсказал Вой.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>65</div>
+      <span class='s s0'>— Właśnie, do Maksymalnie Pożądanej Odpowiedzi — rzekł Harlan.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>65</div>
+      <span class='s s0'>– …к точной Максимальной ожидаемой реакции, – закончил Харлан.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>66</div>
+      <span class='s s1'>Voy podniósł głowę, na jego ciemnej twarzy malowała się walka między strachem a gniewem.</span>
+      <span
+        class='s s2'>Harlan mimowolnie zauważył, że między dwoma dużymi górnymi siekaczami tego człowieka jest szpara, co nadawało mu króliczy wygląd, dziwnie kłócący się z tłumioną energią j ego słów.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>66</div>
+      <span class='s s1'>Вой поднял глаза; на его смуглом лице попеременно отражались гнев и досада.</span>
+      <span
+        class='s s2'>Харлан мимоходом обратил внимание на щель между верхними передними зубами Социолога, делавшую его похожим на трусливого зайчишку. Но сходство было обманчивым. В словах Воя слышалась сдержанная сила.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>67</div>
+      <span class='s s3'>— Więc będę przesłuchany przez Radę Wszechczasów? — zapytał Voy.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>67</div>
+      <span class='s s3'>– Полагаю, что Совет Времен еще укажет мне на эту ошибку.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>68</div>
+      <span class='s s0'>— Nie sądzę.</span>
+      <span
+        class='s s1'>O ile się orientuję, Rada Wszechczasów nie wie o tym.</span>
+      <span class='s s2'>W każdym razie projekt Zmiany Rzeczywistości przekazano mi bez komentarzy.</span>
+      <span
+        class='s s3'>— Nie wyjaśnił słowa "przekazano", ale Voy nie zadał żadnego pytania.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>68</div>
+      <span class='s s0'>– Сомневаюсь.</span>
+      <span
+        class='s s1'>Насколько мне известно, Совет ничего не заметил.</span>
+      <span class='s s2'>Во всяком случае, ваш проект Изменения попал ко мне без комментариев.</span>
+      <span
+        class='s s3'>– Харлан не уточнил слова «попал», и Вой не спросил его об этом.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>69</div>
+      <span class='s s0'>— Więc to pan wykrył tę pomyłkę?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>69</div>
+      <span class='s s0'>– Следовательно, ошибку обнаружили лично вы?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>70</div>
+      <span class='s s1'>— Ja.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>70</div>
+      <span class='s s1'>– Да.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>71</div>
+      <span class='s s2'>— I nie złożył pan raportu Radzie Wszechczasów?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>71</div>
+      <span class='s s2'>– И не сообщили о ней Совету?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>72</div>
+      <span class='s s3'>— Nie złożyłem.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>72</div>
+      <span class='s s3'>– Нет.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>73</div>
+      <span class='s s0'>Najpierw ulga, a potem stężenie rysów twarzy.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>73</div>
+      <span class='s s0'>В первый момент Вой облегченно вздохнул, затем нахмурил брови:</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>74</div>
+      <span class='s s1'>— Dlaczego nie?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>74</div>
+      <span class='s s1'>– А почему?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>75</div>
+      <span class='s s2'>— Mało kto potrafiłby uniknąć tej omyłki.</span>
+      <span class='s s3'>Wydawało mi się, że mogę ją naprawić, zanim stanie się szkoda.</span>
+      <span
+        class='s s0'>Zrobiłem to.</span>
+      <span class='s s1'>Po co ciągnąć sprawę dalej?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>75</div>
+      <span class='s s2'>– Подобные ошибки почти неизбежны.</span>
+      <span class='s s3'>Я решил, что смогу исправить ее, пока не поздно.</span>
+      <span
+        class='s s0'>Так я и сделал.</span>
+      <span class='s s1'>Чего же еще?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>76</div>
+      <span class='s s2'>— No cóż… dziękuję. Techniku.</span>
+      <span class='s s3'>Postąpił pan jak przyjaciel.</span>
+      <span
+        class='s s0'>Omyłka sekcyjna, która, jak pan sam stwierdził, praktycznie była nie do uniknięcia, bardzo nieprzyjemnie wyglądałaby w raporcie.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>76</div>
+      <span class='s s2'>– Ну что ж, благодарю вас, Техник Харлан.</span>
+      <span class='s s3'>Вы поступили как настоящий друг.</span>
+      <span
+        class='s s0'>Хотя ошибка, допущенная нашим Сектором, как вы сами сказали, почти неизбежна, боюсь, что в протоколе Совета она выглядела бы непростительной оплошностью.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>78</div>
+      <span class='s s1'>— Zrobił krótką przerwę i ciągnął dalej: — Oczywiście, w obliczu zmian w osobowości, jakie zostaną wprowadzone przez tę Zmianę, śmierć paru ludzi na wstępie nie ma większego znaczenia.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>78</div>
+      <span class='s s1'>После секундной паузы Вой продолжал: – Впрочем, что значит преждевременная смерть нескольких человек по сравнению с теми сдвигами в миллионах личностей, которые будут вызваны предстоящим Изменением Реальности.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>79</div>
+      <span class='s s2'>Harlan myślał obojętnie: nie wygląda na to, żeby był szczególnie wdzięczny. Prawdopodobnie jest zły.</span>
+      <span
+        class='s s3'>Gdy przestanie myśleć, będzie jeszcze bardziej zły, że Technik uchronił go przed naganą służbową.</span>
+      <span
+        class='s s0'>Gdybym był Socjologiem, uściskałby mi rękę, ale Technikowi…</span>
+      <span class='s s1'>Z zimną krwią potrafi skazać dziesięciu ludzi na śmierć, lecz nie dotknie Technika.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>79</div>
+      <span class='s s2'>«Не очень-то похоже на искреннюю благодарность, – мелькнуло в голове у Харлана, – вероятно, он обиделся.</span>
+      <span
+        class='s s3'>А если он еще к тому же подумает, что от выговора его спас какой-то Техник, то ему станет жаль себя до слез.</span>
+      <span
+        class='s s0'>Будь я Социологом, он горячо пожал бы мне руку, но Технику он руки не подаст.</span>
+      <span
+        class='s s1'>Даже кончиком пальца не притронется к Технику, а сам готов не моргнув глазом обречь двенадцать человек на смерть от удушья».</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>80</div>
+      <span class='s s2'>A ponieważ czekanie, aż gniew Voya wzrośnie, byłoby fatalne, Harlan oznajmił bez zwłoki:</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>80</div>
+      <span class='s s2'>И, так как ждать, пока Социолог обидится всерьез, значило все погубить, Харлан решил идти напролом.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>81</div>
+      <span class='s s3'>— Myślę, że pana wdzięczność sięga tak daleko, iż pańska sekcja wykona dla mnie pewną małą robótkę.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>81</div>
+      <span class='s s3'>– Я надеюсь, что в знак благодарности вы не откажете мне в маленькой услуге?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>82</div>
+      <span class='s s0'>— Robótkę?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>82</div>
+      <span class='s s0'>– Услуге?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>83</div>
+      <span class='s s1'>— Problem Biografii.</span>
+      <span class='s s2'>Mam przy sobie odpowiednie informacje. Mam również dane dotyczące proponowanej Zmiany Rzeczywistości w 482.</span>
+      <span
+        class='s s3'>Chciałbym znać wpływ tej zmiany na prawdopodobną przyszłość pewnej osoby.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>83</div>
+      <span class='s s1'>– Мне нужен Расчет Судьбы.</span>
+      <span class='s s2'>Проект Изменения Реальности в 482-м и все необходимые данные у меня с собой.</span>
+      <span
+        class='s s3'>Мне надо выяснить влияние этого Изменения на судьбу определенной личности.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>84</div>
+      <span class='s s0'>— Chyba niezupełnie pana rozumiem — powiedział z wolna Socjolog.</span>
+      <span class='s s1'>— Z pewnością ma pan przecież możność załatwienia tego w swojej sekcji?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>84</div>
+      <span class='s s0'>– Я не вполне уверен, что правильно понял вас, Техник, – медленно проговорил Вой.</span>
+      <span
+        class='s s1'>– Точно так же вы можете сделать все это в своем Секторе.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>85</div>
+      <span class='s s2'>— Mam.</span>
+      <span class='s s3'>Jestem jednak zaangażowany w prywatne badania, których jeszcze nie chciałbym wykazywać w raportach.</span>
+      <span
+        class='s s0'>Byłoby trudno wykonać to w mojej sekcji bez…</span>
+      <span class='s s1'>— Gestem wyraził konkluzję nie dokończonego zdania.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>85</div>
+      <span class='s s2'>– Мог бы.</span>
+      <span class='s s3'>Но мне не хочется, чтобы о моих личных исследованиях стало известно до их завершения.</span>
+      <span
+        class='s s0'>Проведение этого Расчета в моем Секторе встречает известные трудности, да и к тому же…</span>
+      <span
+        class='s s1'>– Харлан завершил фразу неопределенным жестом.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>86</div>
+      <span class='s s2'>Voy powiedział:</span>
+      <span class='s s3'>— Więc nie chce pan robić tego oficjalnie?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>86</div>
+      <span class='s s2'>– Вас не устраивает официальный путь?</span>
+      <span class='s s3'>Вы хотите совершить этот Расчет тайно?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>87</div>
+      <span class='s s0'>— Chcę, żeby to zostało zrobione poufnie.</span>
+      <span
+        class='s s1'>Pragnę poufnej odpowiedzi.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>87</div>
+      <span class='s s0'>– Да.</span>
+      <span class='s s1'>Мне нужен строго конфиденциальный ответ.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>88</div>
+      <span class='s s2'>— Hm… to jest wbrew przepisom.</span>
+      <span class='s s3'>Nie mogę się na to zgodzić.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>88</div>
+      <span class='s s2'>– Но вы же знаете, что это противозаконно.</span>
+      <span class='s s3'>Я не могу пойти на такое вопиющее нарушение правил.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>89</div>
+      <span class='s s0'>Harlan zmarszczył czoło.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>89</div>
+      <span class='s s0'>Харлан нахмурился:</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>90</div>
+      <span class='s s1'>— Chyba nie bardziej wbrew przepisom niż moja rezygnacja z zameldowania Radzie Wszechczasów o pańskiej omyłce.</span>
+      <span
+        class='s s2'>Przeciwko temu nie zgłosił pan zastrzeżeń.</span>
+      <span class='s s3'>Jeśli mamy postępować ściśle oficjalnie w jednej sprawie, musimy być również oficjalni w drugiej.</span>
+      <span
+        class='s s0'>Sądzę, że pan mnie rozumie?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>90</div>
+      <span class='s s1'>– Но ведь и я нарушил правила, не сообщив Совету о вашей ошибке.</span>
+      <span class='s s2'>Однако против первого нарушения вы почему-то не возражали.</span>
+      <span
+        class='s s3'>Если уж быть таким щепетильным в одном случае, то следует быть не менее щепетильным и в другом.</span>
+      <span
+        class='s s0'>Надеюсь, вы меня понимаете?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>91</div>
+      <span class='s s1'>Wystarczyło spojrzeć na twarz Voya.</span>
+      <span class='s s2'>Socjolog wyciągnął rękę:</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>91</div>
+      <span class='s s1'>Вой отлично все понял – об этом красноречиво свидетельствовало выражение его лица.</span>
+      <span
+        class='s s2'>Он протянул руку:</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>92</div>
+      <span class='s s3'>— Czy mogą zobaczyć dokumenty?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>92</div>
+      <span class='s s3'>– Разрешите взглянуть?</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>93</div>
+      <span class='s s0'>Harlan poczuł pewną ulgę.</span>
+      <span
+        class='s s1'>Główna przeszkoda została pokonana.</span>
+      <span class='s s2'>Patrzył w napięciu, jak Voy pochyla głowę nad arkuszami.</span>
+      <span
+        class='s s3'>Tylko raz Socjolog się odezwał:</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>93</div>
+      <span class='s s0'>У Харлана отлегло от сердца.</span>
+      <span
+        class='s s1'>Основное препятствие осталось позади.</span>
+      <span class='s s2'>Он внимательно следил за Социологом, молча изучавшим привезенные им перфоленты.</span>
+      <span
+        class='s s3'>Только один раз Вой нарушил молчание:</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>94</div>
+      <span class='s s0'>— Och, Czasie, to jest mała Zmiana Rzeczywistości.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>94</div>
+      <span class='s s0'>– Клянусь Временем, это же совсем ничтожное Изменение!</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>95</div>
+      <span class='s s1'>Harlan wykorzystał okazję i zaczął improwizować:</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>95</div>
+      <span class='s s1'>Воспользовавшись случаем, Харлан решил рискнуть.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>96</div>
+      <span class='s s2'>— Tak jest.</span>
+      <span class='s s3'>Chyba bardzo mała.</span>
+      <span class='s s0'>O to toczy się cały spór. To Zmiana poniżej krytycznej różnicy, więc wybrałem pewną jednostkę na próbę. Oczywiście byłoby niedyplomatycznie wykorzystywać środki naszej sekcji, póki nie uzyskam pewności, że mam rację.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>96</div>
+      <span class='s s2'>– В том-то и дело.</span>
+      <span class='s s3'>Слишком ничтожное, на мой взгляд.</span>
+      <span
+        class='s s0'>Но вы, конечно, понимаете, что с моей стороны было бы неэтично проводить эти Расчеты в моем Секторе, не убедившись предварительно в своей правоте.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>97</div>
+      <span class='s s1'>Voy nie odpowiadał i Harlan urwał. Nie było sensu przeciągać tego dalej.</span>
+      <span
+        class='s s2'>Voy wstał.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>97</div>
+      <span class='s s1'>Вой ничего не ответил, и Харлан умолк, боясь наговорить лишнего.</span>
+      <span class='s s2'>Наконец Социолог встал:</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>98</div>
+      <span class='s s3'>— Dam to jednemu z naszych Biografistów.</span>
+      <span
+        class='s s0'>Sprawę utrzymamy w tajemnicy.</span>
+      <span class='s s1'>Rozumie pan chyba, że nie można tego uważać za precedens.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>98</div>
+      <span class='s s3'>– Я передам ваш материал моему Расчетчику.</span>
+      <span
+        class='s s0'>Мы все сохраним в тайне.</span>
+      <span class='s s1'>Надеюсь, вы понимаете, что это не следует рассматривать как прецедент.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>99</div>
+      <span class='s s2'>— Oczywiście, że nie.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>99</div>
+      <span class='s s2'>– Разумеется.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>100</div>
+      <span class='s s3'>— I jeśli nie ma pan nic przeciwko temu, chętnie poszedłbym popatrzeć, jak się dokonuje Zmiana Rzeczywistości.</span>
+      <span
+        class='s s0'>Mam nadzieję, że zrobi pan nam ten zaszczyt i przeprowadzi MPZ osobiście.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>100</div>
+      <span
+        class='s s3'>– В таком случае, если вы не возражаете, я хотел бы поскорее осуществить Изменение Реальности.</span>
+      <span
+        class='s s0'>Смею надеяться, что вы окажете нам честь и лично совершите МНВ.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>101</div>
+      <span class='s s1'>Harlan skinął głową.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>101</div>
+      <span class='s s1'>Харлан кивнул:</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>102</div>
+      <span class='s s2'>— Przyjmuję całkowitą odpowiedzialność.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>102</div>
+      <span class='s s2'>– Всю ответственность я беру на себя.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>103</div>
+      <span class='s s3'>Kiedy weszli do sali obserwacyjnej, działały tam dwa ekrany.</span>
+      <span class='s s0'>Inżynierowie ześrodkowali je już wedle dokładnych koordynat w Przestrzeni i Czasie, a potem wyszli.</span>
+      <span
+        class='s s1'>Harlan i Voy byli sami w błyszczącej sali.</span>
+      <span class='s s2'>(Urządzenia z emulsji cząsteczkowych były widoczne i nawet trochę więcej niż widoczne, lecz Harlan patrzył na ekrany).</span>
+      <span
+        class='s s3'>Oba obrazy tkwiły nieruchomo.</span>
+      <span class='s s0'>Wyglądały na fotografie, ponieważ przedstawiały matematyczne momenty Czasu.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>103</div>
+      <span class='s s3'>Когда они вошли в наблюдательную камеру, там уже были включены два экрана.</span>
+      <span
+        class='s s0'>Инженеры заранее настроили Хроноскопы на нужные координаты в Пространстве и Времени и удалились.</span>
+      <span
+        class='s s1'>Харлан и Вой были одни в сверкающей огнями комнате.</span>
+      <span
+        class='s s2'>(Блеск молекулярных пленок по-прежнему слепил глаза, но Харлан смотрел только на экраны.)</span>
+      <span
+        class='s s3'>Оба изображения были неподвижны.</span>
+      <span class='s s0'>Они соответствовали математически точным мгновениям Времени.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>104</div>
+      <span class='s s1'>Jeden obraz był w ostrych, naturalnych barwach i ukazywał jakieś maszyny;</span>
+      <span
+        class='s s2'>Harlan wiedział, że jest to maszynownia doświadczalnego statku kosmicznego.</span>
+      <span class='s s3'>Zamykały się właśnie drzwi i w szczelinie tkwił połyskujący but z czerwonego, na pół przezroczystego materiału.</span>
+      <span
+        class='s s0'>Ale nie poruszał się.</span>
+      <span class='s s1'>Nic się nie poruszało.</span>
+      <span class='s s2'>Gdyby obraz był na tyle ostry, że byłoby na nim widać drobiny pyłu w powietrzu, one też byłyby nieruchome.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>104</div>
+      <span class='s s1'>Одно изображение сохранило яркие естественные краски.</span>
+      <span class='s s2'>Харлан узнал в нем машинный зал экспериментального космического корабля.</span>
+      <span
+        class='s s3'>Дверь еще не успела закрыться, и в оставшейся щели виден был сверкающий башмак из красного полупрозрачного материала.</span>
+      <span
+        class='s s0'>Башмак не шевелился.</span>
+      <span class='s s1'>Все застыло, словно в мертвом царстве.</span>
+      <span
+        class='s s2'>Если бы резкость изображения позволила разглядеть пылинки в воздухе, то и они были бы неподвижны.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>105</div>
+      <span class='s s3'>Voy powiedział: — Przez dwie godziny i trzydzieści sześć minut od obserwowanego momentu ta maszynownia pozostanie pusta. To znaczy — w bieżącej Rzeczywistości.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>105</div>
+      <span class='s s3'>– Машинный зал будет пуст два часа тридцать шесть минут, – сказал Вой, – разумеется, в текущей Реальности.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>106</div>
+      <span class='s s0'>— Wiem — mruknął Harlan.</span>
+      <span class='s s1'>Wkładał rękawiczki i utrwalał sobie w pamięci położenie na półce zasobnika o decydującym znaczeniu, mierząc kroki do niego, wybierając najlepsze miejsce, w które należało go przenieść.</span>
+      <span
+        class='s s2'>Pospiesznie rzucił okiem na drugi ekran.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>106</div>
+      <span class='s s0'>– Знаю, – пробормотал Харлан, натягивая перчатки.</span>
+      <span class='s s1'>Он отметил быстрым взглядом положение нужного ящика на полке, измерил число шагов до него, нашел, куда его следует переместить.</span>
+      <span
+        class='s s2'>Он мельком взглянул на второй экран.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>107</div>
+      <span class='s s3'>Podczas gdy maszynownia znajdująca się w polu określonym jako "teraźniejszość" — w odniesieniu do tej sekcji Wieczności, w jakiej się znajdowali — była jasna i w naturalnych kolorach, to drugi obraz, późniejszy o jakieś dwadzieścia pięć Stuleci, miał błękitną poświatę, taką jak widoki z "przyszłości".</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>107</div>
+      <span class='s s3'>Поскольку машинный зал находился во Времени, которое по отношению к данному Сектору Вечности можно было считать «настоящим», то его изображение было четким и сохраняло естественные краски. Второе изображение отстояло от первого на двадцать пять Столетий. Подобно всем изображениям «будущего» оно было подернуто голубой дымкой.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>108</div>
+      <span class='s s0'>To był port kosmiczny.</span>
+      <span class='s s1'>Intensywnie niebieskie niebo, niebieskawo zabarwione budynki z surowego metalu na niebieskozielonym gruncie.</span>
+      <span
+        class='s s2'>Niebieski cylinder dziwnego kształtu o wybrzuszonym dnie stał na pierwszym planie.</span>
+      <span
+        class='s s3'>Dwa podobne znajdowały się w głębi.</span>
+      <span class='s s0'>Wszystkie trzy wznosiły swe rozdwojone dzioby do góry, a rozcięcia sięgały głęboko w kadłub statku.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>108</div>
+      <span class='s s0'>Это был космический порт.</span>
+      <span class='s s1'>Ярко-синее небо; отливающие синевой металлические конструкции, зеленовато-синяя почва.</span>
+      <span
+        class='s s2'>На переднем плане стоял голубой цилиндр необычной формы, с массивным основанием.</span>
+      <span
+        class='s s3'>Два таких же цилиндра виднелись поодаль.</span>
+      <span class='s s0'>Все три цилиндра глядели расщепленными носами вверх; расщелина почти надвое рассекала каждый корабль.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>110</div>
+      <span class='s s1'>— Bardzo dziwaczne — powiedział zamyślony Harlan.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>110</div>
+      <span class='s s1'>Харлан поднял брови. – Как странно они выглядят!</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>111</div>
+      <span class='s s2'>— Elektrograwitacyjne — odparł Voy.</span>
+      <span class='s s3'>— Tylko 2481 Stulecie ma elektrograwitacyjne pojazdy kosmiczne.</span>
+      <span
+        class='s s0'>Bez dysz, bez silników jądrowych.</span>
+      <span class='s s1'>Konstrukcja, która daje duże przeżycia estetyczne.</span>
+      <span
+        class='s s2'>Wielka szkoda, że musieliśmy to poddać Zmianie.</span>
+      <span class='s s3'>Wielka szkoda.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>111</div>
+      <span class='s s2'>– Электрогравитация, – сухо ответил Вой.</span>
+      <span class='s s3'>– За всю историю человечества только в 2871-м были созданы электрогравитационные космические корабли.</span>
+      <span
+        class='s s0'>В них нет ни камер сгорания, ни ядерных установок.</span>
+      <span class='s s1'>Они красивы; их конструкция доставляет эстетическое наслаждение.</span>
+      <span
+        class='s s2'>Жаль, что Изменение уничтожит их, очень жаль.</span>
+      <span class='s s3'>– Его устремленный на Харлана взгляд выражал открытое неодобрение.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>112</div>
+      <span class='s s0'>— Utkwił oczy w Marianie z widoczną dezaprobatą.</span>
+      <span class='s s1'>Harlan zacisnął wargi.</span>
+      <span
+        class='s s2'>Wyraźna dezaprobata!</span>
+      <span class='s s3'>Czemu nie?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>112</div>
+      <span class='s s0'>Харлан стиснул зубы.</span>
+      <span class='s s1'>Неодобрение.</span>
+      <span class='s s2'>А чего еще мог он ждать?</span>
+      <span
+        class='s s3'>Ведь он Техник.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>113</div>
+      <span class='s s0'>Przecież jest Technikiem.</span>
+      <span class='s s1'>Tak to jest: był kiedyś pewien Obserwator, który stwierdził zjawisko narkomanii.</span>
+      <span
+        class='s s2'>Był jakiś Statystyk, który wykazał, że najnowsze Zmiany pomnożyły liczbę narkomanów; osiągnęła ona największy procent w całej bieżącej Rzeczywistości człowieka.</span>
+      <span
+        class='s s3'>Jakiś Socjolog, prawdopodobnie sam Voy, opracował ten problem z psychiatrycznego punktu widzenia.</span>
+      <span
+        class='s s0'>Wreszcie jakiś Kalkulator udowodnił, że w celu ograniczenia narkomanii do bezpiecznego poziomu konieczna jest Zmiana Rzeczywistości, i wykrył, że w efekcie ubocznym musi na tym ucierpieć elektrograwitacyjna komunikacja kosmiczna.</span>
+      <span
+        class='s s1'>Dziesięciu czy stu ludzi w całej Wieczności przykładało do tego rękę.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>113</div>
+      <span class='s s0'>Совесть остальных была чиста.</span>
+      <span class='s s1'>Сведения о потреблении наркотиков собрал, конечно, какой-то Наблюдатель.</span>
+      <span
+        class='s s2'>Статистик обработал их и показал, что число наркоманов в данной Реальности достигло рекордной цифры.</span>
+      <span
+        class='s s3'>Социолог – возможно, сам Вой – построил по этим данным Психологическую характеристику общества.</span>
+      <span
+        class='s s0'>Наконец Вычислитель рассчитал Изменение, сводящее потребление наркотиков до безопасного уровня, и обнаружил, что побочным эффектом этого Изменения явится исчезновение электрогравитационных космолетов.</span>
+      <span
+        class='s s1'>Десятки, сотни людей, занимающих в Вечности самые различные посты, приняли участие в разработке этого проекта.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>114</div>
+      <span class='s s2'>Lecz wreszcie, na koniec, musi wkroczyć Technik, taki jak Harlan.</span>
+      <span class='s s3'>Wypełniając dyrektywy, jakie wszyscy inni wymyślili i mu przekazali, musi zapoczątkować aktualną Zmianę Rzeczywistości.</span>
+      <span
+        class='s s0'>A potem wszyscy patrzą na niego i oskarżają wyniośle.</span>
+      <span class='s s1'>Ich spojrzenia mówią: "To nie my, to ty zniszczyłeś to piękno".</span>
+      <span
+        class='s s2'>I za to będą go potępiać i unikać.</span>
+      <span class='s s3'>Zrzucać własną winę na jego barki i będą nim pogardzali.</span>
+      <span
+        class='s s0'>Harian powiedział szorstko:</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>114</div>
+      <span class='s s2'>Но до сих пор это был только проект. Для его осуществления на сцену должен выйти Техник (например, он сам).</span>
+      <span
+        class='s s3'>Именно Техник, следуя разработанным для него инструкциям, совершит то самое действие (МНВ), которое вызовет Изменение.</span>
+      <span
+        class='s s0'>И тогда на него обрушатся гнев и презрение остальных.</span>
+      <span class='s s1'>Их высокомерные взгляды скажут ему: «Мы тут ни при чем.</span>
+      <span
+        class='s s2'>Ты один виноват.</span>
+      <span class='s s3'>Это ты своими руками уничтожил такую красоту».</span>
+      <span
+        class='s s0'>И чем сильнее будет в них говорить стремление оправдать себя, тем упорнее будут они избегать и сторониться Техника.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>115</div>
+      <span class='s s1'>— Statki się nie liczą.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>115</div>
+      <span
+        class='s s1'>– Корабли не в счет, – резко заявил Харлан, – нас с вами должны интересовать вот эти штучки.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>116</div>
+      <span class='s s2'>Jesteśmy zainteresowani tylko tymi istotami.</span>
+      <span class='s s3'>"Istoty" były ludźmi, wyglądającymi karłowato na tle statku kosmicznego, tak jak Ziemia i ziemskie społeczeństwa wyglądają na tle Kosmosu.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>116</div>
+      <span class='s s2'>А «штучками» были люди.</span>
+      <span class='s s3'>Рядом с громадами кораблей они действительно казались карликами, точно так же, как сама Земля и все людские дела кажутся ничтожными из космической дали.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>117</div>
+      <span class='s s0'>Ci ludzie przypominali grupę marionetek.</span>
+      <span class='s s1'>Ich malutkie rączki i nóżki zastygły w nienaturalnych pozach uchwyconych w określonym momencie Czasu.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>117</div>
+      <span class='s s0'>Крохотные фигурки людей были раскиданы маленькими группами по всему космодрому.</span>
+      <span
+        class='s s1'>Они застыли в причудливых позах с потешно задранными тонюсенькими ручками и ножками.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>118</div>
+      <span class='s s2'>Voy wzruszył ramionami.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>118</div>
+      <span class='s s2'>Вой молча пожал плечами.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>119</div>
+      <span class='s s3'>Harian właśnie przymocowywał mały generator pola do swego lewego przegubu.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>119</div>
+      <span class='s s3'>Харлан надел портативный генератор Темпорального поля на запястье левой руки.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>120</div>
+      <span class='s s0'>— Trzeba wykonać tę robotę.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>120</div>
+      <span class='s s0'>– Давайте кончать с этим делом.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>121</div>
+      <span class='s s1'>— Chwileczkę.</span>
+      <span class='s s2'>Chcę się skontaktować z Biografistąi dowiedzieć, ile czasu zajmie mu ta praca dla pana.</span>
+      <span
+        class='s s3'>Chciałbym, żeby i to zostało wykonane.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>121</div>
+      <span class='s s1'>– Погодите.</span>
+      <span class='s s2'>Сначала я свяжусь с Расчетчиком и узнаю, как скоро он может выполнить вашу просьбу.</span>
+      <span
+        class='s s3'>Мне хочется поскорее покончить и с тем и с другим.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>122</div>
+      <span class='s s0'>Jego ręce manipulowały sprawnie przy małym ruchomym przycisku, a ucho słuchało uważnie serii tyknięć, które nadeszły w odpowiedzi.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>122</div>
+      <span class='s s0'>Вой быстро застучал маленьким подвижным контактом, в ответ послышалась серия щелчков.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>123</div>
+      <span
+        class='s s1'>(Jeszcze jedna charakterystyczna cecha tej sekcji Wieczności, myślał Harian — kody dźwiękowe.</span>
+      <span
+        class='s s2'>Mądre, ale afektowane, podobnie jak emulsje cząsteczkowe).</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>123</div>
+      <span class='s s1'>«Вот еще одна характерная черта Столетия, – подумал Харлан, – звуковой код.</span>
+      <span
+        class='s s2'>Остроумно, но уж очень претенциозно, так же как и эти молекулярные пленки».</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>124</div>
+      <span class='s s3'>— Mówi, że nie zajmie mu to więcej niż trzy godziny — rzekł wreszcie Voy. — Poza tym podziwia imię badanej osoby.</span>
+      <span
+        class='s s0'>Noys Lambent.</span>
+      <span class='s s1'>To kobieta, prawda?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>124</div>
+      <span class='s s3'>– Он говорит, что справится часа за три, – произнес наконец Вой, – кстати, он просил передать вам, что ему понравилось имя этой особы.</span>
+      <span
+        class='s s0'>Нойс Ламбент.</span>
+      <span class='s s1'>Женщина, конечно.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>125</div>
+      <span class='s s2'>Harlanowi zaschło w gardle.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>125</div>
+      <span class='s s2'>У Харлана перехватило дыхание.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>126</div>
+      <span class='s s3'>— Tak.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>126</div>
+      <span class='s s3'>– Да.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>127</div>
+      <span class='s s0'>Wargi Voya rozciągnęły się w uśmiechu.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>127</div>
+      <span class='s s0'>Губы Воя скривились в улыбку.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>128</div>
+      <span class='s s1'>— To brzmi interesująco.</span>
+      <span class='s s2'>Chciałbym ją poznać.</span>
+      <span
+        class='s s3'>Od miesięcy nie mieliśmy kobiet w naszej sekcji.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>128</div>
+      <span class='s s1'>– Звучит заманчиво.</span>
+      <span class='s s2'>Я бы и сам не прочь взглянуть на нее.</span>
+      <span
+        class='s s3'>В этом Секторе вот уже несколько месяцев не было ни одной женщины.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>129</div>
+      <span class='s s0'>Harian bał się odpowiedzieć.</span>
+      <span class='s s1'>Przez chwilę wpatrywał się w Socjologa, a potem gwałtownie się odwrócił.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>129</div>
+      <span class='s s0'>Харлан испугался, что голос выдаст его.</span>
+      <span class='s s1'>Он ничего не ответил, лишь пристально посмотрел на Социолога и отвернулся.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>130</div>
+      <span class='s s2'>Jeśli istniała jakaś skaza na Wieczności, to właśnie w związku z kobietami.</span>
+      <span
+        class='s s3'>Wiedział o tym niemal od pierwszego wejścia w Wieczność, lecz osobiście zaczął odczuwać dopiero od tego dnia, kiedy spotkał Noys.</span>
+      <span
+        class='s s0'>Od tego momentu była już prosta droga do punktu, w którym się teraz znalazł, zakłamany wobec swej przysięgi Wiecznościowca i wszystkiego, w co wierzył.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>130</div>
+      <span class='s s2'>Отсутствие женщин было единственным изъяном в безупречной организации Вечности.</span>
+      <span
+        class='s s3'>Харлан узнал о нем сразу же после вступления в Вечность, но, лишь встретив Нойс, впервые почувствовал его на себе.</span>
+      <span
+        class='s s0'>С этого дня он катился по наклонной дорожке, пока не изменил присяге Вечного и всему, во что свято верил прежде.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>131</div>
+      <span class='s s1'>— Dla kogo?</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>131</div>
+      <span class='s s1'>Ради Нойс.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>132</div>
+      <span class='s s2'>Dla Noys.</span>
+      <span class='s s3'>I nie wstydził się. To właśnie było najbardziej wstrząsające.</span>
+      <span
+        class='s s0'>Nie wstydził się.</span>
+      <span class='s s1'>Nie czuł się winny lawiny zbrodni, jaką spowodował, zbrodni, wobec których ostatnia — nielegalne użycie poufnego Biografowania — była zaledwie drobnym grzechem.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>132</div>
+      <span class='s s2'>Ради нее одной…</span>
+      <span
+        class='s s3'>Ему не было стыдно – вот что было самым ужасным.</span>
+      <span
+        class='s s0'>Ему не было стыдно.</span>
+      <span class='s s1'>Он не испытывал угрызений совести за ту длинную цепь преступлений, которые он уже совершил и по сравнению с которыми неэтичное использование секретного Расчета Судьбы выглядело мелким, незначительным проступком.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>133</div>
+      <span class='s s2'>Jeśli będzie trzeba, nie cofnie się przed najgorszym.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>133</div>
+      <span class='s s2'>Если понадобится, он совершит еще более тяжкие преступления.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>134</div>
+      <span class='s s3'>Po raz pierwszy nasunęła mu się wyraziście pewna myśl.</span>
+      <span
+        class='s s0'>I chociaż ją odrzucił ze zgrozą, wiedział, że skoro raz już się pojawiła, to na pewno wróci.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>134</div>
+      <span class='s s3'>В это мгновение в его голове промелькнула мысль, оказавшая впоследствии такое влияние на его жизнь.</span>
+      <span
+        class='s s0'>И хотя в первый момент Харлан в ужасе отогнал ее, но в глубине души он уже тогда был уверен, что, явившись однажды, она вернется еще не раз.</span>
+    </div>
+  </div>
+  <div class='dt-row'>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>135</div>
+      <span class='s s1'>Myśl była prosta: jeśli zajdzie potrzeba, zniszczy Wieczność.</span>
+    </div>
+    <div class='par dt-cell'>
+      <div class='book-par-id'>135</div>
+      <span class='s s1'>Мысль была проста: если не останется другого выхода, он уничтожит Вечность.</span>
+    </div>
+  </div>
+</div>
+<div class='lt-footer'>🚀 created in lingtrain alignment studio</div>
+</body>
+</html>

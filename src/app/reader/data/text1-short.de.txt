@@ -1,0 +1,3 @@
+Modelle bewerten
+
+Hinweis: AutoML Translation-Funktionen werden sowohl von der AutoML API als auch von der Cloud Translation

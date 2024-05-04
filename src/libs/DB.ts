@@ -1,17 +1,14 @@
-import { createClient } from '@libsql/client';
-import { drizzle } from 'drizzle-orm/libsql';
-import { migrate } from 'drizzle-orm/libsql/migrator';
+import { drizzle } from 'drizzle-orm/node-postgres';
+import { Pool } from 'pg';
 
+import * as BooksSchemaRelations from '../models/BooksSchema.relations';
+import * as BooksSchemaTables from '../models/BooksSchema.tables';
+import * as GuestbookSchema from '../models/GuestbookSchema';
 import { Env } from './Env.mjs';
 
-const client = createClient({
-  url: Env.DATABASE_URL,
-  authToken: Env.DATABASE_AUTH_TOKEN,
+const pool = new Pool({
+  connectionString: Env.DATABASE_URL,
 });
-
-export const db = drizzle(client);
-
-// Disable migrate function if using Edge runtime for local environment and use `drizzle-kit push` instead
-if (process.env.NODE_ENV !== 'production') {
-  await migrate(db, { migrationsFolder: './migrations' });
-}
+export const db = drizzle(pool, {
+  schema: { ...BooksSchemaTables, ...BooksSchemaRelations, ...GuestbookSchema },
+});

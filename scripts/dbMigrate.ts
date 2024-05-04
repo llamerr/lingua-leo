@@ -1,17 +1,18 @@
 /* eslint-disable no-console */
-import { createClient } from '@libsql/client';
-import { drizzle } from 'drizzle-orm/libsql';
-import { migrate } from 'drizzle-orm/libsql/migrator';
+import { drizzle } from 'drizzle-orm/node-postgres';
+import { migrate } from 'drizzle-orm/node-postgres/migrator';
+import { Pool } from 'pg';
+
+import { Env } from '../src/libs/Env.mjs';
 
 async function main() {
   console.log('Migration started');
 
-  const client = createClient({
-    url: process.env.DATABASE_URL ?? '',
-    authToken: process.env.DATABASE_AUTH_TOKEN ?? '',
+  const pool = new Pool({
+    connectionString: Env.DATABASE_URL,
   });
 
-  const db = drizzle(client);
+  const db = drizzle(pool);
 
   await migrate(db, { migrationsFolder: './migrations' });
 

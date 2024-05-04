@@ -10,9 +10,7 @@ import { expect, test } from '@playwright/test';
 const targetUrl = process.env.ENVIRONMENT_URL || process.env.PRODUCTION_URL;
 
 if (!targetUrl) {
-  throw new Error(
-    'Please set the ENVIRONMENT_URL or PRODUCTION_URL environment variable',
-  );
+  throw new Error('Please set the ENVIRONMENT_URL or PRODUCTION_URL environment variable');
 }
 
 test.describe('Sanity', () => {
@@ -33,9 +31,7 @@ test.describe('Sanity', () => {
       await page.getByRole('link', { name: 'About' }).click();
       await expect(page).toHaveURL(/about$/);
 
-      await expect(
-        page.getByText('Lorem ipsum dolor sit amet', { exact: false }),
-      ).toHaveCount(2);
+      await expect(page.getByText('Lorem ipsum dolor sit amet', { exact: false })).toHaveCount(2);
     });
 
     test('should navigate to the portfolio page', async ({ page }) => {

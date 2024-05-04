@@ -1,0 +1,3 @@
+Evaluating models
+
+Note: AutoML Translation capabilities are offered by both the AutoML API and the Cloud Translation
